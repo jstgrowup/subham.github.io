@@ -63,17 +63,18 @@ const Projects = ({ post, _id }) => {
               <img src={image} alt={title} />
               <div className="card-body">
                 <Center style={{ width: "100%" }}>
-                  <Heading size={"lg"} margin={"4"}>
-             
+                  <Heading size={"lg"} p={"3"}>
                     {title}
                   </Heading>
                 </Center>
-                <Text fontSize={"md"}>{description}</Text>
+                <Text p={"2"} fontSize={"md"}>
+                  {description}
+                </Text>
 
                 <Center>Tech Stacks</Center>
-                <Flex minW={"90%"} align={"center"} justify="space-evenly">
+                <Flex gap={"1"} justify={"center"}>
                   {tags.map((tag, index) => (
-                    <Text style={{ fontSize: "14px" }} key={index}>
+                    <Text fontSize={"sm"} key={index}>
                       {tag},
                     </Text>
                   ))}

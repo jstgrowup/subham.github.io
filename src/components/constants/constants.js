@@ -7,7 +7,7 @@ export const projects = [
     tags: [
       "ReactJS",
       "ChakraUI",
-      "React-Router",
+      "React Router",
       "Typescript",
       "Local Storage",
     ],

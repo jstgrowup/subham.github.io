@@ -69,7 +69,7 @@ const Hero = () => {
               </Text>
             </Heading>
 
-            <Heading >
+            <Heading>
               {" "}
               <Typewriter
                 options={{
@@ -79,12 +79,17 @@ const Hero = () => {
                 }}
               />
             </Heading>
-            <Text color={useColorModeValue("black","white")} fontSize={"large"} >
-            A Full Stack Developer aspires to create some good web applications
-            by leveraging my skills in Frontend and Backend development by
-            producing production-ready code. A team player and a collaborative
-            developer having Leadership, Management, and teaching skills
-          </Text>
+            <Text
+              color={useColorModeValue("black", "white")}
+              fontSize={"large"}
+              fontStyle={"sans-serif"}
+            >
+              A Full Stack Developer aspires to create some good web
+              applications by leveraging my skills in Frontend and Backend
+              development by producing production-ready code. A team player and
+              a collaborative developer having Leadership, Management, and
+              teaching skills
+            </Text>
             <Stack
               spacing={{ base: 4, sm: 6 }}
               direction={{ base: "column", sm: "row" }}
