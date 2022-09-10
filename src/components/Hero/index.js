@@ -9,7 +9,6 @@ import {
   Button,
   Image,
   Icon,
-  // IconButton,
   IconProps,
   useColorModeValue,
   Popover,
@@ -117,14 +116,17 @@ const Hero = () => {
                   </PopoverHeader>
                   <PopoverBody>
                     <Image
-                      alt={"Hero Image"}
+                      alt={"Image"}
                       fit={"cover"}
                       align={"center"}
                       w={"100%"}
                       h={"100%"}
                       src={resume}
                       onClick={() => {
-                        window.open("https://drive.google.com/file/d/1yIWPGM10tJH93rOrrR7YL79AugYV2jEB/view", "_blank");
+                        window.open(
+                          "https://drive.google.com/file/d/1yIWPGM10tJH93rOrrR7YL79AugYV2jEB/view",
+                          "_blank"
+                        );
                       }}
                     />
                   </PopoverBody>
