@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/subham.github.io/static/css/main.073c9b0a.css",
-    "main.js": "/subham.github.io/static/js/main.0e5eb02a.js",
-    "static/js/787.82c5c586.chunk.js": "/subham.github.io/static/js/787.82c5c586.chunk.js",
-    "static/media/logo.svg": "/subham.github.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/subham.github.io/static/css/main.5391ce6f.css",
+    "main.js": "/subham.github.io/static/js/main.47d1b743.js",
+    "static/media/Subham.JPG": "/subham.github.io/static/media/Subham.76c01d14015934f77b7b.JPG",
+    "static/media/resume.png": "/subham.github.io/static/media/resume.22223e1348d4db363fe6.png",
     "index.html": "/subham.github.io/index.html",
-    "main.073c9b0a.css.map": "/subham.github.io/static/css/main.073c9b0a.css.map",
-    "main.0e5eb02a.js.map": "/subham.github.io/static/js/main.0e5eb02a.js.map",
-    "787.82c5c586.chunk.js.map": "/subham.github.io/static/js/787.82c5c586.chunk.js.map"
+    "main.5391ce6f.css.map": "/subham.github.io/static/css/main.5391ce6f.css.map",
+    "main.47d1b743.js.map": "/subham.github.io/static/js/main.47d1b743.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.0e5eb02a.js"
+    "static/css/main.5391ce6f.css",
+    "static/js/main.47d1b743.js"
   ]
 }
