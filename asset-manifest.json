@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/subham.github.io/static/css/main.5391ce6f.css",
-    "main.js": "/subham.github.io/static/js/main.2caf858b.js",
+    "main.js": "/subham.github.io/static/js/main.dc0b56e7.js",
     "static/media/Subham.JPG": "/subham.github.io/static/media/Subham.76c01d14015934f77b7b.JPG",
     "static/media/resume.png": "/subham.github.io/static/media/resume.797e2618b4591287d97b.png",
     "index.html": "/subham.github.io/index.html",
     "main.5391ce6f.css.map": "/subham.github.io/static/css/main.5391ce6f.css.map",
-    "main.2caf858b.js.map": "/subham.github.io/static/js/main.2caf858b.js.map"
+    "main.dc0b56e7.js.map": "/subham.github.io/static/js/main.dc0b56e7.js.map"
   },
   "entrypoints": [
     "static/css/main.5391ce6f.css",
-    "static/js/main.2caf858b.js"
+    "static/js/main.dc0b56e7.js"
   ]
 }
