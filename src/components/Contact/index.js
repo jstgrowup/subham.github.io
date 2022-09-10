@@ -12,21 +12,10 @@ import {
   Wrap,
   WrapItem,
   FormControl,
-
   Link,
 } from "@chakra-ui/react";
-import {
-  MdPhone,
-  MdEmail,
-  MdLocationOn,
- 
-} from "react-icons/md";
-import {
-  BsGithub,
- 
-  BsLinkedin,
-  BsYoutube,
-} from "react-icons/bs";
+import { MdPhone, MdEmail, MdLocationOn } from "react-icons/md";
+import { BsGithub, BsLinkedin, BsYoutube } from "react-icons/bs";
 
 const Contact = () => {
   const ButtonMailto = ({ mailto, label }) => {
@@ -121,22 +110,6 @@ const Contact = () => {
                       </VStack>
                     </Box>
                     <HStack spacing={5} px={5} alignItems="flex-start">
-                      {/* <IconButton
-                        aria-label="facebook"
-                        variant="ghost"
-                        size="lg"
-                        isRound={true}
-                        _hover={{
-                          bgGradient: "linear(to-r, #EC9F05, #FF4E00)",
-                        }}
-                        icon={<BsInstagram size="28px" />}
-                        onClick={() => {
-                          window.open(
-                            "https://www.instagram.com/_yashkapure_/",
-                            "_blank"
-                          );
-                        }}
-                      /> */}
                       <IconButton
                         aria-label="github"
                         variant="ghost"
@@ -150,8 +123,7 @@ const Contact = () => {
                           window.open("https://github.com/jstgrowup", "_blank");
                         }}
                       />
-                      {/* </HStack> */}
-                      {/* <HStack spacing={5} px={5} alignItems="flex-start"> */}
+
                       <IconButton
                         aria-label="discord"
                         variant="ghost"
