@@ -124,7 +124,7 @@ const Hero = () => {
                       h={"100%"}
                       src={resume}
                       onClick={() => {
-                        window.open("drivelink", "_blank");
+                        window.open("https://drive.google.com/file/d/1yIWPGM10tJH93rOrrR7YL79AugYV2jEB/view", "_blank");
                       }}
                     />
                   </PopoverBody>
