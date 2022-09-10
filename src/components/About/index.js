@@ -68,12 +68,11 @@ const Feature = ({ icon, iconBg }: FeatureProps) => {
 
 const About = () => {
   return (
-    
     <Container className="reveal" id="about" maxW={"7xl"} py={20} isLazy>
       <Text color={"gray.500"} fontSize={"xl"}>
         Some of the Stack I know
       </Text>
-      <SimpleGrid columns={{ base: 2,sm:5, md: 7 }} spacing={10}>
+      <SimpleGrid columns={{ base: 2, sm: 5, md: 7 }} spacing={10}>
         <Feature
           icon={
             <Icon
@@ -85,17 +84,7 @@ const About = () => {
           }
           iconBg={useColorModeValue("black", "white")}
         />
-        <Feature
-          icon={
-            <Icon
-              as={IoLogoPython}
-              color={useColorModeValue("blue.200", "blue.500")}
-              w={10}
-              h={10}
-            />
-          }
-          iconBg={useColorModeValue("black", "white")}
-        />
+
         <Feature
           icon={
             <Icon
@@ -219,18 +208,6 @@ const About = () => {
           }
           iconBg={useColorModeValue("black", "white")}
         />
-
-        {/* <Flex>
-          <Image
-            width={"100%"}
-            rounded={"md"}
-            alt={"feature image"}
-            src={
-              "https://spectrum.ieee.org/media-library/image.jpg?id=25587918"
-            }
-            objectFit={"cover"}
-          />
-        </Flex> */}
       </SimpleGrid>
     </Container>
   );
