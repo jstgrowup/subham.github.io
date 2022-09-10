@@ -12,7 +12,7 @@ import Projects from "./components/Projects";
 const App = () => {
   return (
     <ChakraProvider>
-      {/* <Navbar /> */}
+      <Navbar />
       <Hero />
       <About />
       <Projects />
