@@ -19,7 +19,7 @@ import {
   PopoverArrow,
   PopoverCloseButton,
 } from "@chakra-ui/react";
-import { ChevronDownIcon } from "@chakra-ui/icons";
+import { ChevronDownIcon, ChevronRightIcon } from "@chakra-ui/icons";
 import Typewriter from "typewriter-effect";
 import heroImage from "./image/Subham.JPG";
 import resume from "./image/resume.png";
@@ -93,7 +93,25 @@ const Hero = () => {
               spacing={{ base: 4, sm: 6 }}
               direction={{ base: "column", sm: "row" }}
             >
-              <Popover placement="bottom" isLazy>
+               <Button
+                    rounded={"full"}
+                    rightIcon={<ChevronRightIcon/>}
+                    onClick={() => {
+                      window.open(
+                        "https://drive.google.com/file/d/1yIWPGM10tJH93rOrrR7YL79AugYV2jEB/view",
+                        "_blank"
+                      );
+                    }}
+                    size={"lg"}
+                    colorScheme={"red"}
+                    fontWeight={"normal"}
+                    bgGradient="linear(to-r, #EC9F05, #FF4E00)"
+                    _hover={{ bgGradient: "linear(to-l, #EC9F05, #FF4E00)" }}
+                    w="fit-content"
+                  >
+                    My Resume
+                  </Button>
+              {/* <Popover placement="bottom" isLazy>
                 <PopoverTrigger>
                   <Button
                     rounded={"full"}
@@ -131,7 +149,7 @@ const Hero = () => {
                     />
                   </PopoverBody>
                 </PopoverContent>
-              </Popover>
+              </Popover> */}
             </Stack>
           </Stack>
           <Flex
