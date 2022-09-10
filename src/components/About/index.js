@@ -52,8 +52,8 @@ const Feature = ({ icon, iconBg }: FeatureProps) => {
   return (
     <Stack direction={"row"} align={"center"}>
       <Flex
-        w={58}
-        h={58}
+        w={55}
+        h={55}
         align={"center"}
         justify={"center"}
         rounded={"full"}
