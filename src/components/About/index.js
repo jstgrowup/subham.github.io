@@ -19,7 +19,6 @@ import {
 import {
   IoLogoJavascript,
   IoLogoNodejs,
-  IoLogoPython,
   IoLogoHtml5,
   IoLogoReact,
   IoLogoGithub,
