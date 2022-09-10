@@ -3,7 +3,7 @@ export const projects = [
     title: "Sparkamerica Clone",
     description:
       "SparkAmerica is an American health awareness community-building website where people register themselves and join the community.",
-    image: "images/1.png",
+    image: "https://i.ibb.co/d6m68DR/1.png",
     tags: [
       "ReactJS",
       "ChakraUI",
@@ -20,7 +20,7 @@ export const projects = [
     title: "Pharmeasy Clone",
     description:
       "An e-commerce web application that widely provides e-pharmacy, diagnostics, and healthcare solutions",
-    image: "images/2.png",
+    image: "https://i.ibb.co/26JwSLW/2.png",
     tags: ["JavaScript", "HTML3", "CSS", "Local Storage"],
     source: "https://github.com/jstgrowup/Pharmeasy-Clone",
     visit:
@@ -33,7 +33,7 @@ export const projects = [
     title: "BeautyBebo Clone",
     description:
       "This is an Indian e-commerce website widely known for selling beauty products for females",
-    image: "images/3.png",
+    image: "https://i.ibb.co/G0Brt2G/3.png",
     tags: ["JavaScript", "HTML3", "CSS", "Local Storage"],
     source: "https://github.com/jstgrowup/BeautyBebo-clone.git",
     visit: "https://delightful-duckanoo-17fff8.netlify.app/",
@@ -45,7 +45,7 @@ export const projects = [
     title: "Star Wars Clone",
     description:
       "This is a mini project where i made a clone of the starwars search website ,here you can find the details of you favourite starwars character",
-    image: "images/4.png",
+    image: "https://i.ibb.co/qDnLcJn/4.png",
     tags: ["JavaScript", "HTML3", "CSS", "Local Storage"],
     source: "https://github.com/jstgrowup/Starwars_website.git",
     visit: "https://starwars-search-subham.netlify.app/",
