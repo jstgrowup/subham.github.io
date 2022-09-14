@@ -1,5 +1,3 @@
-
-
 .blob {
   animation: move 4s infinite;
   animation-delay: 2s;
@@ -58,23 +56,17 @@
 }
 
 .card .card-body h1 {
-  /* margin: 0.5rem 1.5rem; */
-  /* font-size: 1rem; */
+
   font-weight: 800;
   color: crimson;
   letter-spacing: 2px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  /* font-family: 'Poppins', sans-serif; */
+
 }
 
 .card .card-body p {
-
-
   font-weight: 550;
-
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-
 }
 
 .reveal {
@@ -90,7 +82,7 @@
 }
 
 .card .card-body div {
-  /* font-family: 'Poppins', sans-serif; */
+ 
   text-align: right;
   width: 100%;
 }
