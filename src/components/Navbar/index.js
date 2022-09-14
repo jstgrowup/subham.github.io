@@ -114,7 +114,6 @@ const Navbar = () => {
             _hover={{
               textDecoration: "none",
             }}
-            href="#"
           >
             Home
           </Link>
@@ -124,7 +123,6 @@ const Navbar = () => {
             _hover={{
               textDecoration: "none",
             }}
-            href="#about"
           >
             About
           </Link>
@@ -134,7 +132,6 @@ const Navbar = () => {
             _hover={{
               textDecoration: "none",
             }}
-            href="#projects"
           >
             Projects
           </Link>
@@ -144,7 +141,6 @@ const Navbar = () => {
             _hover={{
               textDecoration: "none",
             }}
-            href="blog"
           >
             Blog
           </Link>
@@ -154,7 +150,6 @@ const Navbar = () => {
             _hover={{
               textDecoration: "none",
             }}
-            href="contact"
           >
             Contact
           </Link>
