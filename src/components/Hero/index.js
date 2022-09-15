@@ -11,18 +11,12 @@ import {
   Icon,
   IconProps,
   useColorModeValue,
-  Popover,
-  PopoverTrigger,
-  PopoverContent,
-  PopoverHeader,
-  PopoverBody,
-  PopoverArrow,
-  PopoverCloseButton,
+ 
 } from "@chakra-ui/react";
-import { ChevronDownIcon, ChevronRightIcon } from "@chakra-ui/icons";
+import {  ChevronRightIcon } from "@chakra-ui/icons";
 import Typewriter from "typewriter-effect";
 import heroImage from "./image/Subham.JPG";
-import resume from "./image/resume.png";
+// import resume from "./image/resume.png";
 
 const Hero = () => {
   return (
