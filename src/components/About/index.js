@@ -3,7 +3,6 @@ import {
   Container,
   SimpleGrid,
   Flex,
-
   Stack,
   Icon,
   useColorModeValue,
@@ -17,6 +16,8 @@ import {
   SiHeroku,
   SiGit,
   SiPostman,
+  SiRedux,
+  SiChakraui,
 } from "react-icons/si";
 import {
   IoLogoJavascript,
@@ -27,7 +28,6 @@ import {
   IoLogoCss3,
 } from "react-icons/io5";
 import { ReactElement } from "react";
-
 
 interface FeatureProps {
   text: string;
@@ -194,7 +194,27 @@ const About = () => {
           icon={
             <Icon
               as={SiPostman}
+              color={useColorModeValue("#EE6D3F", "#EE6D3F")}
+              boxSize={"62"}
+            />
+          }
+          iconBg={useColorModeValue("black", "white")}
+        />
+        <Feature
+          icon={
+            <Icon
+              as={SiRedux}
               color={useColorModeValue("white", "red.500")}
+              boxSize={"62"}
+            />
+          }
+          iconBg={useColorModeValue("black", "white")}
+        />
+        <Feature
+          icon={
+            <Icon
+              as={SiChakraui}
+              color={useColorModeValue("#4DC7C2", "#4DC7C2")}
               boxSize={"62"}
             />
           }
