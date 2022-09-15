@@ -93,24 +93,24 @@ const Hero = () => {
               spacing={{ base: 4, sm: 6 }}
               direction={{ base: "column", sm: "row" }}
             >
-               <Button
-                    rounded={"full"}
-                    rightIcon={<ChevronRightIcon/>}
-                    onClick={() => {
-                      window.open(
-                        "https://drive.google.com/file/d/1yIWPGM10tJH93rOrrR7YL79AugYV2jEB/view",
-                        "_blank"
-                      );
-                    }}
-                    size={"lg"}
-                    colorScheme={"red"}
-                    fontWeight={"normal"}
-                    bgGradient="linear(to-r, #EC9F05, #FF4E00)"
-                    _hover={{ bgGradient: "linear(to-l, #EC9F05, #FF4E00)" }}
-                    w="fit-content"
-                  >
-                    My Resume
-                  </Button>
+              <Button
+                rounded={"full"}
+                rightIcon={<ChevronRightIcon />}
+                onClick={() => {
+                  window.open(
+                    "https://drive.google.com/file/d/1oKY81T9kWc8hcoKAOuYE-VL-4kJneEcv/view",
+                    "_blank"
+                  );
+                }}
+                size={"lg"}
+                colorScheme={"red"}
+                fontWeight={"normal"}
+                bgGradient="linear(to-r, #EC9F05, #FF4E00)"
+                _hover={{ bgGradient: "linear(to-l, #EC9F05, #FF4E00)" }}
+                w="fit-content"
+              >
+                My Resume
+              </Button>
               {/* <Popover placement="bottom" isLazy>
                 <PopoverTrigger>
                   <Button
