@@ -63,7 +63,7 @@ const Projects = ({ post, _id }) => {
               <img src={image} alt={title} />
               <div className="card-body">
                 <Center style={{ width: "100%" }}>
-                  <Heading size={"lg"} p={"3"}>
+                  <Heading size={"lg"} p={"2"}>
                     {title}
                   </Heading>
                 </Center>
@@ -71,7 +71,10 @@ const Projects = ({ post, _id }) => {
                   {description}
                 </Text>
 
-                <Center>Tech Stacks</Center>
+                <Center>
+                  {" "}
+                  <Heading size={"md"}>Tech Stacks Used</Heading>
+                </Center>
                 <Flex gap={"1"} justify={"center"}>
                   {tags.map((tag, index) => (
                     <Text fontSize={"sm"} key={index}>
