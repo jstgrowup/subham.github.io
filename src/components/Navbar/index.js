@@ -39,7 +39,7 @@ const Navbar = () => {
             display={{ base: "none", md: "flex" }}
             style={{ cursor: "pointer", fontWeight: "bold" }}
           >
-            <Link
+            {/* <Link
               px={2}
               spacing={4}
               display={{ base: "none", md: "flex" }}
@@ -52,7 +52,7 @@ const Navbar = () => {
               href={"#"}
             >
               Home
-            </Link>
+            </Link> */}
             <Link
               px={2}
               spacing={4}

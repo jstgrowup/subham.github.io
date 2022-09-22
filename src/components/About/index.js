@@ -72,7 +72,7 @@ const About = () => {
     <Container className="reveal" id="about" maxW={"7xl"} py={20} isLazy>
       <Center>
         <Heading color={useColorModeValue("black", "white")} size="md">
-          Some of the Stack I know
+          Tech Skills
         </Heading>
       </Center>
 

@@ -8,7 +8,7 @@ import Contact from "./components/Contact";
 
 import About from "./components/About";
 import Projects from "./components/Projects";
-import Gitgraph from "./gitgraph";
+import { Gitgraph } from "./gitgraph";
 
 const App = () => {
   return (
@@ -16,13 +16,8 @@ const App = () => {
       <Navbar />
       <Hero />
       <About />
-      <Center
-        display={"flex"}
-        flexDirection="column"
-        gap={"10"}
-    
-      >
-        <Heading>My GitHub Contribution Graph</Heading>
+      <Center display={"flex"} flexDirection="column" gap={"9"}>
+        <Heading size={"md"} color={"black"}>My GitHub Calender</Heading>
         <Gitgraph />
       </Center>
       <Projects />

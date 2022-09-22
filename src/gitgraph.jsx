@@ -1,15 +1,20 @@
-import { Image } from '@chakra-ui/react'
-import React from 'react'
-
-function Gitgraph() {
+import { Box } from "@chakra-ui/react";
+import React from "react";
+import Githubcalendar from "react-github-calendar";
+export const Gitgraph = () => {
 
     return (
         <>
-        
-            <Image borderRadius={"xl"} alt="jstgrowup's Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=jstgrowup&bg_color=0D1117&color=5BCDEC&line=5BCDEC&point=FFFFFF&hide_border=true"></Image>
+            <Box fontWeight={"bold"} >
 
+                <Githubcalendar
+                    username="jstgrowup"
+                    blockSize={15}
+                    blockMargin={5}
+                    fontSize={16}
+                    color={"green"}
+                />
+            </Box>
         </>
-        )
-}
-
-export default Gitgraph
+    );
+};
