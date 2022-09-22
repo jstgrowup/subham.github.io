@@ -17,7 +17,6 @@ import { ChevronRightIcon } from "@chakra-ui/icons";
 import Typewriter from "typewriter-effect";
 import heroImage from "./image/Subham.JPG";
 import { Link } from "react-router-dom";
-// import resume from "./image/resume.png";
 
 const Hero = () => {
   return (
@@ -92,7 +91,6 @@ const Hero = () => {
                 <Button
                   rounded={"full"}
                   rightIcon={<ChevronRightIcon />}
-                  
                   // onClick={() => {
                   //   window.open(
                   //     "https://drive.google.com/file/d/1oKY81T9kWc8hcoKAOuYE-VL-4kJneEcv/view",
@@ -109,46 +107,6 @@ const Hero = () => {
                   My Resume
                 </Button>
               </a>
-
-              {/* <Popover placement="bottom" isLazy>
-                <PopoverTrigger>
-                  <Button
-                    rounded={"full"}
-                    rightIcon={<ChevronDownIcon />}
-                    size={"lg"}
-                    colorScheme={"red"}
-                    fontWeight={"normal"}
-                    bgGradient="linear(to-r, #EC9F05, #FF4E00)"
-                    _hover={{ bgGradient: "linear(to-l, #EC9F05, #FF4E00)" }}
-                    w="fit-content"
-                  >
-                    My Resume
-                  </Button>
-                </PopoverTrigger>
-                <PopoverContent _focus={{ boxShadown: "#f4f4" }} ml={5}>
-                  <PopoverArrow />
-                  <PopoverCloseButton />
-                  <PopoverHeader fontWeight="bold">
-                    My Resume(Click on image to open)
-                  </PopoverHeader>
-                  <PopoverBody>
-                    <Image
-                      alt={"Image"}
-                      fit={"cover"}
-                      align={"center"}
-                      w={"100%"}
-                      h={"100%"}
-                      src={resume}
-                      onClick={() => {
-                        window.open(
-                          "https://drive.google.com/file/d/1yIWPGM10tJH93rOrrR7YL79AugYV2jEB/view",
-                          "_blank"
-                        );
-                      }}
-                    />
-                  </PopoverBody>
-                </PopoverContent>
-              </Popover> */}
             </Stack>
           </Stack>
           <Flex
@@ -192,7 +150,7 @@ const Hero = () => {
 
 export default Hero;
 
-export const Blob = (props: IconProps) => {
+export const Blob = (props) => {
   return (
     <Icon
       width={"100%"}
