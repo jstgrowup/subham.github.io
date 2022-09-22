@@ -11,11 +11,12 @@ import {
   Icon,
   IconProps,
   useColorModeValue,
- 
 } from "@chakra-ui/react";
-import {  ChevronRightIcon } from "@chakra-ui/icons";
+import Resume from "./Subham_Dey_Resume.pdf";
+import { ChevronRightIcon } from "@chakra-ui/icons";
 import Typewriter from "typewriter-effect";
 import heroImage from "./image/Subham.JPG";
+import { Link } from "react-router-dom";
 // import resume from "./image/resume.png";
 
 const Hero = () => {
@@ -87,24 +88,28 @@ const Hero = () => {
               spacing={{ base: 4, sm: 6 }}
               direction={{ base: "column", sm: "row" }}
             >
-              <Button
-                rounded={"full"}
-                rightIcon={<ChevronRightIcon />}
-                onClick={() => {
-                  window.open(
-                    "https://drive.google.com/file/d/1oKY81T9kWc8hcoKAOuYE-VL-4kJneEcv/view",
-                    "_blank"
-                  );
-                }}
-                size={"lg"}
-                colorScheme={"red"}
-                fontWeight={"normal"}
-                bgGradient="linear(to-r, #EC9F05, #FF4E00)"
-                _hover={{ bgGradient: "linear(to-l, #EC9F05, #FF4E00)" }}
-                w="fit-content"
-              >
-                My Resume
-              </Button>
+              <a href={Resume} target="_blank" download={"Subham_Resume"}>
+                <Button
+                  rounded={"full"}
+                  rightIcon={<ChevronRightIcon />}
+                  
+                  // onClick={() => {
+                  //   window.open(
+                  //     "https://drive.google.com/file/d/1oKY81T9kWc8hcoKAOuYE-VL-4kJneEcv/view",
+                  //     "_blank"
+                  //   );
+                  // }}
+                  size={"lg"}
+                  colorScheme={"red"}
+                  fontWeight={"normal"}
+                  bgGradient="linear(to-r, #EC9F05, #FF4E00)"
+                  _hover={{ bgGradient: "linear(to-l, #EC9F05, #FF4E00)" }}
+                  w="fit-content"
+                >
+                  My Resume
+                </Button>
+              </a>
+
               {/* <Popover placement="bottom" isLazy>
                 <PopoverTrigger>
                   <Button

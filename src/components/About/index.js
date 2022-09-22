@@ -29,11 +29,11 @@ import {
 } from "react-icons/io5";
 import { ReactElement } from "react";
 
-interface FeatureProps {
-  text: string;
-  iconBg: string;
-  icon?: ReactElement;
-}
+// interface FeatureProps {
+//   text: string;
+//   iconBg: string;
+//   icon?: ReactElement;
+// }
 function reveal() {
   var reveals = document.querySelectorAll(".reveal");
 
@@ -51,7 +51,7 @@ function reveal() {
 }
 
 window.addEventListener("scroll", reveal);
-const Feature = ({ icon, iconBg }: FeatureProps) => {
+const Feature = ({ icon, iconBg }) => {
   return (
     <Stack direction={"row"} align={"center"}>
       <Flex
