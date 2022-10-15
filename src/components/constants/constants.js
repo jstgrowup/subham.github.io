@@ -51,5 +51,22 @@ export const projects = [
     visit: "https://starwars-search-subham.netlify.app/",
     video: "https://youtu.be/mk53cFRR0Ro",
     id: "starwars",
+  }, {
+    title: "TimeCamp Clone",
+    description:
+      "Time-camp website which is a time tracking web application used to keep track of the team's work progress",
+    image: "https://i.ibb.co/27bSjG7/Screenshot-254.png",
+    tags: ["ReactJS",
+      "ChakraUI",
+      "React Router",
+      "Google-Firebase Auth",
+      "React-redux",
+      "Bootstarp",
+      "CSS"
+    ],
+    source: "https://github.com/jstgrowup/Time-Camp-Clone",
+    visit: "https://timecampclone-cw.netlify.app/",
+    video: "https://youtu.be/0-9m-XROu_w",
+    id: "timecamp",
   },
 ];

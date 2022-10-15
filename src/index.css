@@ -37,7 +37,8 @@
   border-radius: 10px;
   position: relative;
   width: 400px;
-  height: 550px;
+  
+  min-height: 580px;
   box-shadow: 0 0 13px 0px rgba(0, 0, 0, 0.3);
   transition: 0.5s;
   overflow: hidden;
@@ -143,7 +144,7 @@
     font-weight: bold;
     color: crimson;
     letter-spacing: 3px;
-    /* font-family: 'Poppins', sans-serif; */
+
   }
 
   .card .card-body p {

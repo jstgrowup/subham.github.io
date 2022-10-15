@@ -56,7 +56,7 @@ const Projects = ({ post, _id }) => {
         </Heading>
       </Center>
 
-      <Box className="main">
+      <Box className="main" >
         {projects.map(
           ({ id, image, title, description, tags, source, visit, video }) => (
             <div className="card reveal" key={id}>
@@ -75,7 +75,7 @@ const Projects = ({ post, _id }) => {
                   {" "}
                   <Heading size={"md"}>Tech Stacks Used</Heading>
                 </Center>
-                <Flex gap={"1"} justify={"center"}>
+                <Flex gap={"1"} justifyContent={"center"} >
                   {tags.map((tag, index) => (
                     <Text fontSize={"sm"} key={index}>
                       {tag},
