@@ -27,13 +27,8 @@ import {
   IoLogoGithub,
   IoLogoCss3,
 } from "react-icons/io5";
-import { ReactElement } from "react";
 
-// interface FeatureProps {
-//   text: string;
-//   iconBg: string;
-//   icon?: ReactElement;
-// }
+
 function reveal() {
   var reveals = document.querySelectorAll(".reveal");
 
