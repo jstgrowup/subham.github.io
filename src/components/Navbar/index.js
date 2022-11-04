@@ -1,5 +1,4 @@
 import React from "react";
-
 import {
   Box,
   HStack,
@@ -16,8 +15,10 @@ const Navbar = () => {
   const { colorMode, toggleColorMode } = useColorMode();
 
   return (
-    <>
+    <Box w={"100%"} my={["-48","-28","-20"]} position={"fixed"} zIndex={"25"}>
       <Flex
+        
+      
         bg={useColorModeValue("gray.100", "gray.900")}
         px={4}
         h={16}
@@ -155,7 +156,7 @@ const Navbar = () => {
           </Link>
         </Stack>
       </Box>
-    </>
+    </Box>
   );
 };
 

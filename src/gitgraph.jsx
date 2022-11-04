@@ -6,13 +6,12 @@ export const Gitgraph = () => {
     return (
         <>
             <Box fontWeight={"bold"} >
-                <Center p={"10"}>
+                <Center p={"12"}>
                     <Heading size={"md"} color={useColorModeValue("black", "white")}>My GitHub Calender</Heading>
                 </Center>
-
                 <Githubcalendar
                     username="jstgrowup"
-                    blockSize={15}
+                    blockSize={18}
                     blockMargin={5}
                     fontSize={16}
                     color={"green"}
