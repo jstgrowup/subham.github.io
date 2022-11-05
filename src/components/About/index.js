@@ -64,7 +64,7 @@ const Feature = ({ icon, iconBg }) => {
 
 const About = () => {
   return (
-    <Container className="reveal" id="about" maxW={"7xl"} py={20} isLazy>
+    <Container className="reveal" id="skills" maxW={"7xl"} py={20} isLazy>
       <Center p={"10"}>
         <Heading color={useColorModeValue("black", "white")} size="md">
           Tech Skills

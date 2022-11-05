@@ -10,6 +10,8 @@ import {
   Image,
   Icon,
 
+ 
+
   useColorModeValue,
 } from "@chakra-ui/react";
 import Resume from "./Subham_Dey_Resume.pdf";
@@ -19,9 +21,10 @@ import heroImage from "./image/Subham.JPG";
 
 
 const Hero = () => {
+  
   return (
     <>
-      <Container maxW={"7xl"} isLazy  marginTop={["48","28","20"]} >
+      <Container id="home" maxW={"7xl"} isLazy marginTop={["20"]} >
         <Stack
           align={"center"}
           spacing={{ base: 8, md: 10 }}
