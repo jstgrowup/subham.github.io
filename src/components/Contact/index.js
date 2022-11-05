@@ -164,12 +164,12 @@ const Contact = () => {
                 <Box bg="white" borderRadius="lg">
                   <Box m={8} color="#FF4F09">
                     <VStack spacing={3}>
-                      <form action="mailto:yourmail@gmail.com" method="post">
+                      <form action="mailto:deysubham999@gmail.com" method="post">
                         <center>
                           <FormControl id="name" float="right">
                             <ButtonMailto
                               label="Write me an E-Mail"
-                              mailto="mailto:no-reply@example.com"
+                              mailto="mailto:deysubham999@gmail.com"
                             />
                           </FormControl>
                         </center>
