@@ -15,6 +15,7 @@ import {
   useDisclosure,
   Text
 } from "@chakra-ui/react";
+import Resume from "../Hero/Subham_Dey_Resume.pdf";
 import { HamburgerIcon, MoonIcon, SunIcon } from "@chakra-ui/icons";
 
 const Navbar = () => {
@@ -61,7 +62,7 @@ const Navbar = () => {
             >
               Home
             </Link> */}
-             <Link
+            <Link
               px={2}
               spacing={4}
               display={{ base: "none", md: "flex" }}
@@ -132,6 +133,23 @@ const Navbar = () => {
             >
               Contact
             </Link>
+            <Link
+              href={Resume}
+              target="_blank"
+              download={"Subham_Resume"}
+              px={2}
+              spacing={4}
+              display={{ base: "none", md: "flex" }}
+              py={1}
+              rounded={"md"}
+              _hover={{
+                textDecoration: "none",
+                bg: useColorModeValue("gray.200", "gray.700"),
+              }}
+
+            >
+              Resume
+            </Link>
           </HStack>
         </HStack>
         <Flex alignItems={"center"}>
@@ -161,7 +179,7 @@ const Navbar = () => {
           <DrawerBody
             w={{ sm: "94%", md: "84%" }}
             ml={{ sm: "3%", md: "8%" }}
-       
+
           >
             <Text
               fontSize={["20px"]}
@@ -232,19 +250,25 @@ const Navbar = () => {
             >
               Contact
             </Text>
-            <Text
-              fontSize={["20px"]}
-              color={["white"]}
-              mt="40px"
-              _hover={{
-                cursor: "pointer",
-                textDecorationLine: "underline",
-                textDecorationColor: "red",
-                textDecorationThickness: "3px",
-              }}
-            >
-              Resume
-            </Text>
+            <Link href={Resume}
+              target="_blank"
+              download={"Subham_Resume"}>
+
+              <Text
+
+                fontSize={["20px"]}
+                color={["white"]}
+                mt="40px"
+                _hover={{
+                  cursor: "pointer",
+                  textDecorationLine: "underline",
+                  textDecorationColor: "red",
+                  textDecorationThickness: "3px",
+                }}
+              >
+                Resume
+              </Text>
+            </Link>
           </DrawerBody>
         </DrawerContent>
       </Drawer>

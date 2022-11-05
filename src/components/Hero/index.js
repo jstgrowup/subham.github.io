@@ -9,9 +9,6 @@ import {
   Button,
   Image,
   Icon,
-
- 
-
   useColorModeValue,
 } from "@chakra-ui/react";
 import Resume from "./Subham_Dey_Resume.pdf";
