@@ -18,6 +18,9 @@ import {
   SiPostman,
   SiRedux,
   SiChakraui,
+  SiRedis,
+  SiJsonwebtokens,
+  SiAmazonaws,
 } from "react-icons/si";
 import {
   IoLogoJavascript,
@@ -113,16 +116,7 @@ const About = () => {
           }
           iconBg={useColorModeValue("black", "white")}
         />
-        <Feature
-          icon={
-            <Icon
-              as={TbBrandNextjs}
-              color={useColorModeValue("white", "black")}
-              boxSize={"62"}
-            />
-          }
-          iconBg={useColorModeValue("black", "white")}
-        />
+      
 
         <Feature
           icon={
@@ -210,6 +204,46 @@ const About = () => {
             <Icon
               as={SiChakraui}
               color={useColorModeValue("#4DC7C2", "#4DC7C2")}
+              boxSize={"62"}
+            />
+          }
+          iconBg={useColorModeValue("black", "white")}
+        />
+        <Feature
+          icon={
+            <Icon
+              as={SiRedis}
+              color={useColorModeValue("#A32422", "#A32422")}
+              boxSize={"62"}
+            />
+          }
+          iconBg={useColorModeValue("black", "white")}
+        />
+        <Feature
+          icon={
+            <Icon
+              as={SiJsonwebtokens}
+              color={useColorModeValue("#4DC7C2", "black")}
+              boxSize={"62"}
+            />
+          }
+          iconBg={useColorModeValue("black", "white")}
+        />
+        <Feature
+          icon={
+            <Icon
+              as={SiAmazonaws}
+              color={useColorModeValue("#4DC7C2", "black")}
+              boxSize={"62"}
+            />
+          }
+          iconBg={useColorModeValue("black", "white")}
+        />
+          <Feature
+          icon={
+            <Icon
+              as={TbBrandNextjs}
+              color={useColorModeValue("white", "black")}
               boxSize={"62"}
             />
           }
