@@ -11,9 +11,10 @@ import {
   Drawer,
   DrawerContent,
   DrawerBody,
-  DrawerFooter,
+ 
   useDisclosure,
-  Text
+  Text,
+  VStack
 } from "@chakra-ui/react";
 import Resume from "../Hero/Subham_Dey_Resume.pdf";
 import { HamburgerIcon, MoonIcon, SunIcon } from "@chakra-ui/icons";
@@ -167,98 +168,28 @@ const Navbar = () => {
         </Flex>
       </Flex>
       <Drawer placement={"top"} onClose={onClose} isOpen={isOpen}>
-        <DrawerFooter />
+
         <DrawerContent
           border={"3px"}
           bg={"blackAlpha.900"}
           w={"100%"}
           mt={"60px"}
           height="450px"
-          display={{ sm: "block", md: "block", lg: "none", xl: "none" }}
+          display={{ sm: "block", md: "none", lg: "none", xl: "none" }}
         >
           <DrawerBody
             w={{ sm: "94%", md: "84%" }}
             ml={{ sm: "3%", md: "8%" }}
-
           >
-            <Text
-              fontSize={["20px"]}
-              color={["white"]}
-              mt="20px"
-              _hover={{
-                cursor: "pointer",
-                textDecorationLine: "underline",
-                textDecorationColor: "red",
-                textDecorationThickness: "3px",
-              }}
-            >
-              Home
-            </Text>
-            <Text
-              fontSize={["20px"]}
-              color={["white"]}
-              mt="40px"
-              href={"#about"}
-              _hover={{
-                cursor: "pointer",
-                textDecorationLine: "underline",
-                textDecorationColor: "red",
-                textDecorationThickness: "3px",
-              }}
-            >
-              About
-            </Text>
-            <Text
-              fontSize={["20px"]}
-              color={["white"]}
-              href={"#about"}
-              mt="40px"
-              _hover={{
-                cursor: "pointer",
-                textDecorationLine: "underline",
-                textDecorationColor: "red",
-                textDecorationThickness: "3px",
-              }}
-            >
-              Skills
-            </Text>
-            <Text
-              fontSize={["20px"]}
-              color={["white"]}
-              mt="40px"
-              href={"#projects"}
-              _hover={{
-                cursor: "pointer",
-                textDecorationLine: "underline",
-                textDecorationColor: "red",
-                textDecorationThickness: "3px",
-              }}
-            >
-              Projects
-            </Text>
-            <Text
-              fontSize={["20px"]}
-              color={["white"]}
-              mt="40px"
-              href={"#contact"}
-              _hover={{
-                cursor: "pointer",
-                textDecorationLine: "underline",
-                textDecorationColor: "red",
-                textDecorationThickness: "3px",
-              }}
-            >
-              Contact
-            </Text>
-            <Link href={Resume}
-              target="_blank"
-              download={"Subham_Resume"}>
+            <VStack gap={"8"}>
 
-              <Text
 
+              <Link
                 fontSize={["20px"]}
                 color={["white"]}
-                mt="40px"
+                mt="20px"
+                href={"#home"}
+                onClick={onClose}
                 _hover={{
                   cursor: "pointer",
                   textDecorationLine: "underline",
@@ -266,9 +197,88 @@ const Navbar = () => {
                   textDecorationThickness: "3px",
                 }}
               >
-                Resume
-              </Text>
-            </Link>
+                Home
+              </Link>
+              <Link
+                fontSize={["20px"]}
+                color={["white"]}
+                mt="40px"
+                href={"#home"}
+                onClick={onClose}
+                _hover={{
+                  cursor: "pointer",
+                  textDecorationLine: "underline",
+                  textDecorationColor: "red",
+                  textDecorationThickness: "3px",
+                }}
+              >
+                About
+              </Link>
+              <Link
+                fontSize={["20px"]}
+                color={["white"]}
+                href={"#skills"}
+                mt="40px"
+                onClick={onClose}
+                _hover={{
+                  cursor: "pointer",
+                  textDecorationLine: "underline",
+                  textDecorationColor: "red",
+                  textDecorationThickness: "3px",
+                }}
+              >
+                Skills
+              </Link>
+              <Link
+                fontSize={["20px"]}
+                color={["white"]}
+                mt="40px"
+                href={"#projects"}
+                onClick={onClose}
+                _hover={{
+                  cursor: "pointer",
+                  textDecorationLine: "underline",
+                  textDecorationColor: "red",
+                  textDecorationThickness: "3px",
+                }}
+              >
+                Projects
+              </Link>
+              <Link
+                fontSize={["20px"]}
+                color={["white"]}
+                mt="40px"
+                href={"#contact"}
+                onClick={onClose}
+                _hover={{
+                  cursor: "pointer",
+                  textDecorationLine: "underline",
+                  textDecorationColor: "red",
+                  textDecorationThickness: "3px",
+                }}
+              >
+                Contact
+              </Link>
+              <Link href={Resume}
+                onClick={onClose}
+                target="_blank"
+                download={"Subham_Resume"}>
+
+                <Text
+                  fontSize={["20px"]}
+                  color={["white"]}
+
+                  _hover={{
+                    cursor: "pointer",
+                    textDecorationLine: "underline",
+                    textDecorationColor: "red",
+                    textDecorationThickness: "3px",
+                  }}
+                >
+                  Resume
+                </Text>
+              </Link>
+            </VStack>
           </DrawerBody>
         </DrawerContent>
       </Drawer>
