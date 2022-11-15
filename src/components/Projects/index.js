@@ -12,7 +12,7 @@ import {
   SimpleGrid,
   Image,
 } from "@chakra-ui/react";
-import { projects } from "../constants/constants";
+
 
 import { BsFillCameraVideoFill, BsFillEyeFill, BsGithub } from "react-icons/bs";
 
@@ -33,7 +33,7 @@ function reveal() {
 }
 
 window.addEventListener("scroll", reveal);
-const Projects = ({ post, _id }) => {
+const Projects = () => {
   return (
     <>
       <Divider />
@@ -60,7 +60,7 @@ const Projects = ({ post, _id }) => {
 
       <SimpleGrid
         columns={["1", "2", "2", "3"]}
-        // border={"2px"}
+   
         gap={["5", "6", "10"]}
         p={["2", "2", "6", "10"]}
       >
@@ -70,7 +70,7 @@ const Projects = ({ post, _id }) => {
             h={["470px", "500px", "500px", "500px"]}
             borderRadius={"md"}
             w={["300px", "270px", "370px", "400px"]}
-            // border={"2px"}
+         
             direction={"column"}
           >
             <Image
@@ -108,7 +108,7 @@ const Projects = ({ post, _id }) => {
               alignItems={"center"}
             >
               <Button
-                // flex={1}
+            
                 fontSize={"sm"}
                 rounded={"full"}
                 _
@@ -122,7 +122,7 @@ const Projects = ({ post, _id }) => {
                 {<BsFillCameraVideoFill size="28px" />}
               </Button>
               <Button
-                // flex={1}
+             
                 fontSize={"sm"}
                 rounded={"full"}
                 _focus={{
@@ -164,7 +164,7 @@ const Projects = ({ post, _id }) => {
             h={["470px", "500px", "500px", "500px"]}
             borderRadius={"md"}
             w={["300px", "270px", "370px", "400px"]}
-            // border={"2px"}
+           
             direction={"column"}
           >
             <Image
@@ -197,13 +197,13 @@ const Projects = ({ post, _id }) => {
               mt={"1rem"}
               direction={"row"}
               p={"4"}
-              // border={"2px"}
+            
               padding={1}
               justifyContent={"space-between"}
               alignItems={"center"}
             >
               <Button
-                // flex={1}
+           
                 fontSize={"sm"}
                 rounded={"full"}
                 _
@@ -220,7 +220,7 @@ const Projects = ({ post, _id }) => {
                 {<BsFillCameraVideoFill size="28px" />}
               </Button>
               <Button
-                // flex={1}
+          
                 fontSize={"sm"}
                 rounded={"full"}
                 _focus={{
@@ -263,9 +263,9 @@ const Projects = ({ post, _id }) => {
           <Flex
             boxShadow={"2px 5px 10px grey"}
             h={["470px", "500px", "500px", "500px"]}
-            // borderRadius={"md"}
+          
             w={["300px", "270px", "370px", "400px"]}
-            // border={"2px"}
+           
             direction={"column"}
           >
             <Image
@@ -298,13 +298,13 @@ const Projects = ({ post, _id }) => {
               mt={"1rem"}
               direction={"row"}
               p={"4"}
-              // border={"2px"}
+           
               padding={1}
               justifyContent={"space-between"}
               alignItems={"center"}
             >
               <Button
-                // flex={1}
+              
                 fontSize={"sm"}
                 rounded={"full"}
                 _
@@ -321,7 +321,7 @@ const Projects = ({ post, _id }) => {
                 {<BsFillCameraVideoFill size="28px" />}
               </Button>
               <Button
-                // flex={1}
+                
                 fontSize={"sm"}
                 rounded={"full"}
                 _focus={{
@@ -366,7 +366,7 @@ const Projects = ({ post, _id }) => {
             h={["470px", "500px", "500px", "500px"]}
             borderRadius={"md"}
             w={["300px", "270px", "370px", "400px"]}
-            // border={"2px"}
+          
             direction={"column"}
           >
             <Image
