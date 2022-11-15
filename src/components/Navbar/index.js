@@ -36,6 +36,7 @@ const Navbar = () => {
       >
         <HStack spacing={8}>
           <Box
+          // bg={"#2563EB"}
             bgGradient="linear(to-r, #EC9F05, #FF4E00)"
             bgClip="text"
             fontSize="2xl"

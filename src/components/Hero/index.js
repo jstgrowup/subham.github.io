@@ -39,7 +39,7 @@ const Hero = () => {
                 as={"span"}
                 position={"relative"}
                 _after={{
-                  content: "''",
+                  
                   width: "full",
                   height: "20%",
                   position: "absolute",

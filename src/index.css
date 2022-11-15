@@ -209,21 +209,21 @@
 .social li {
   padding: 10px;
   font-size: 25px;
-  transition: all 0.8s ease-in-out;
+  /* transition: all 0.8s ease-in-out; */
 }
 
-.social li:hover {
+/* .social li:hover {
   margin-right: -30px;
   box-shadow: 2px 5px 10px grey;
-}
+} */
 
-.social li:hover .fa {
+/* .social li:hover .fa {
   margin-left: 20px;
-}
+} */
 
 .fa {
   color: #fff;
-  transition: all 0.8s ease-in-out;
+  /* transition: all 0.8s ease-in-out; */
 }
 
 .fb {
