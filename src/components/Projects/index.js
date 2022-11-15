@@ -13,7 +13,6 @@ import {
   Image,
 } from "@chakra-ui/react";
 
-
 import { BsFillCameraVideoFill, BsFillEyeFill, BsGithub } from "react-icons/bs";
 
 function reveal() {
@@ -60,17 +59,15 @@ const Projects = () => {
 
       <SimpleGrid
         columns={["1", "2", "2", "3"]}
-   
         gap={["5", "6", "10"]}
         p={["2", "2", "6", "10"]}
       >
         <Center>
           <Flex
             boxShadow={"2px 5px 10px grey"}
-            h={["470px", "500px", "500px", "500px"]}
+            h={["500px", "550px", "500px", "550px"]}
             borderRadius={"md"}
             w={["300px", "270px", "370px", "400px"]}
-         
             direction={"column"}
           >
             <Image
@@ -78,7 +75,7 @@ const Projects = () => {
               src={"https://i.ibb.co/d6m68DR/1.png"}
               w={"100%"}
             />
-            <Box>
+            <Box p={["2","2","4"]}>
               <Center style={{ width: "100%" }}>
                 <Heading size={"lg"} p={"2"}>
                   Sparkamerica Clone
@@ -96,8 +93,10 @@ const Projects = () => {
               </Text>
 
               <Text align={"center"}>
-                <span style={{ color: "red",fontWeight:"bold" }}>Tech Stacks</span> ReactJS,
-                ChakraUI, React Router,Typescript, Local Storage,
+                <span style={{ color: "red", fontWeight: "bold" }}>
+                  Tech Stacks
+                </span>{" "}
+                ReactJS, ChakraUI, React Router,Typescript, Local Storage,
               </Text>
             </Box>
             <Stack
@@ -108,7 +107,6 @@ const Projects = () => {
               alignItems={"center"}
             >
               <Button
-            
                 fontSize={"sm"}
                 rounded={"full"}
                 _
@@ -122,7 +120,6 @@ const Projects = () => {
                 {<BsFillCameraVideoFill size="28px" />}
               </Button>
               <Button
-             
                 fontSize={"sm"}
                 rounded={"full"}
                 _focus={{
@@ -161,10 +158,9 @@ const Projects = () => {
         <Center>
           <Flex
             boxShadow={"2px 5px 10px grey"}
-            h={["470px", "500px", "500px", "500px"]}
+            h={["500px", "550px", "500px", "550px"]}
             borderRadius={"md"}
             w={["300px", "270px", "370px", "400px"]}
-           
             direction={"column"}
           >
             <Image
@@ -172,7 +168,7 @@ const Projects = () => {
               src={"https://i.ibb.co/26JwSLW/2.png"}
               w={"100%"}
             />
-            <Box>
+            <Box p={["2","2","4"]}>
               <Center style={{ width: "100%" }}>
                 <Heading size={"lg"} p={"2"}>
                   Pharmeasy Clone
@@ -189,21 +185,21 @@ const Projects = () => {
               </Text>
 
               <Text align={"center"}>
-                <span style={{ color: "red",fontWeight:"bold" }}>Tech Stacks</span> JavaScript,
-                HTML3, CSS, Local Storage
+                <span style={{ color: "red", fontWeight: "bold" }}>
+                  Tech Stacks
+                </span>{" "}
+                JavaScript, HTML3, CSS, Local Storage
               </Text>
             </Box>
             <Stack
               mt={"1rem"}
               direction={"row"}
               p={"4"}
-            
               padding={1}
               justifyContent={"space-between"}
               alignItems={"center"}
             >
               <Button
-           
                 fontSize={"sm"}
                 rounded={"full"}
                 _
@@ -220,7 +216,6 @@ const Projects = () => {
                 {<BsFillCameraVideoFill size="28px" />}
               </Button>
               <Button
-          
                 fontSize={"sm"}
                 rounded={"full"}
                 _focus={{
@@ -262,10 +257,8 @@ const Projects = () => {
         <Center>
           <Flex
             boxShadow={"2px 5px 10px grey"}
-            h={["470px", "500px", "500px", "500px"]}
-          
+            h={["500px", "550px", "500px", "550px"]}
             w={["300px", "270px", "370px", "400px"]}
-           
             direction={"column"}
           >
             <Image
@@ -273,7 +266,7 @@ const Projects = () => {
               src={"https://i.ibb.co/G0Brt2G/3.png"}
               w={"100%"}
             />
-            <Box>
+            <Box p={["2","2","4"]}>
               <Center style={{ width: "100%" }}>
                 <Heading size={"lg"} p={"2"}>
                   BeautyBebo Clone
@@ -290,21 +283,21 @@ const Projects = () => {
               </Text>
 
               <Text align={"center"}>
-                <span style={{ color: "red",fontWeight:"bold" }}>Tech Stacks</span> JavaScript,
-                HTML3, CSS, Local Storage
+                <span style={{ color: "red", fontWeight: "bold" }}>
+                  Tech Stacks
+                </span>{" "}
+                JavaScript, HTML3, CSS, Local Storage
               </Text>
             </Box>
             <Stack
               mt={"1rem"}
               direction={"row"}
               p={"4"}
-           
               padding={1}
               justifyContent={"space-between"}
               alignItems={"center"}
             >
               <Button
-              
                 fontSize={"sm"}
                 rounded={"full"}
                 _
@@ -321,7 +314,6 @@ const Projects = () => {
                 {<BsFillCameraVideoFill size="28px" />}
               </Button>
               <Button
-                
                 fontSize={"sm"}
                 rounded={"full"}
                 _focus={{
@@ -363,10 +355,9 @@ const Projects = () => {
         <Center>
           <Flex
             boxShadow={"2px 5px 10px grey"}
-            h={["470px", "500px", "500px", "500px"]}
+            h={["500px", "550px", "500px", "550px"]}
             borderRadius={"md"}
             w={["300px", "270px", "370px", "400px"]}
-          
             direction={"column"}
           >
             <Image
@@ -374,7 +365,7 @@ const Projects = () => {
               src={"https://i.ibb.co/qDnLcJn/4.png"}
               w={"100%"}
             />
-            <Box>
+            <Box p={["2","2","4"]}>
               <Center style={{ width: "100%" }}>
                 <Heading size={"lg"} p={"2"}>
                   Star Wars Clone
@@ -392,8 +383,10 @@ const Projects = () => {
               </Text>
 
               <Text align={"center"}>
-                <span style={{ color: "red",fontWeight:"bold" }}>Tech Stacks</span> JavaScript,
-                HTML3, CSS, Local Storage
+                <span style={{ color: "red", fontWeight: "bold" }}>
+                  Tech Stacks
+                </span>{" "}
+                JavaScript, HTML3, CSS, Local Storage
               </Text>
             </Box>
             <Stack
@@ -461,7 +454,7 @@ const Projects = () => {
         <Center>
           <Flex
             boxShadow={"2px 5px 10px grey"}
-            h={["470px", "500px", "500px", "500px"]}
+            h={["500px", "550px", "500px", "550px"]}
             borderRadius={"md"}
             w={["300px", "270px", "370px", "400px"]}
             // border={"2px"}
@@ -472,7 +465,7 @@ const Projects = () => {
               src={"https://i.ibb.co/27bSjG7/Screenshot-254.png"}
               w={"100%"}
             />
-            <Box>
+            <Box p={["2","2","4"]}>
               <Center style={{ width: "100%" }}>
                 <Heading size={"lg"} p={"2"}>
                   TimeCamp Clone
@@ -489,8 +482,11 @@ const Projects = () => {
               </Text>
 
               <Text align={"center"}>
-                <span style={{ color: "red",fontWeight:"bold" }}>Tech Stacks</span> ChakraUI,React
-                Router,Google-Firebase Auth,React-redux,Bootstarp,CSS
+                <span style={{ color: "red", fontWeight: "bold" }}>
+                  Tech Stacks
+                </span>{" "}
+                ChakraUI,React Router,Google-Firebase
+                Auth,React-redux,Bootstarp,CSS
               </Text>
             </Box>
             <Stack
