@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/subham.github.io/static/css/main.d8ca44b0.css",
-    "main.js": "/subham.github.io/static/js/main.c860c5f7.js",
+    "main.css": "/subham.github.io/static/css/main.6f2555cf.css",
+    "main.js": "/subham.github.io/static/js/main.1b8bb8a2.js",
     "static/media/Subham.JPG": "/subham.github.io/static/media/Subham.76c01d14015934f77b7b.JPG",
     "static/media/Subham_Dey_Resume.pdf": "/subham.github.io/static/media/Subham_Dey_Resume.1bf2788d8a9af6830604.pdf",
     "index.html": "/subham.github.io/index.html",
-    "main.d8ca44b0.css.map": "/subham.github.io/static/css/main.d8ca44b0.css.map",
-    "main.c860c5f7.js.map": "/subham.github.io/static/js/main.c860c5f7.js.map"
+    "main.6f2555cf.css.map": "/subham.github.io/static/css/main.6f2555cf.css.map",
+    "main.1b8bb8a2.js.map": "/subham.github.io/static/js/main.1b8bb8a2.js.map"
   },
   "entrypoints": [
-    "static/css/main.d8ca44b0.css",
-    "static/js/main.c860c5f7.js"
+    "static/css/main.6f2555cf.css",
+    "static/js/main.1b8bb8a2.js"
   ]
 }
