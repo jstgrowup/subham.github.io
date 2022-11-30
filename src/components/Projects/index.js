@@ -62,7 +62,7 @@ const Projects = () => {
       <SimpleGrid
         columns={["1", "1", "1", "1"]}
         gap={["5", "6", "10"]}
-        p={["2", "2", "20", "28"]}
+        p={["2", "2", "5", "28"]}
       >
         <Project
           img={"https://i.ibb.co/d6m68DR/1.png"}
@@ -80,6 +80,7 @@ const Projects = () => {
           yt={"https://youtu.be/ExVNJnaNgUo"}
           ver={"https://spark-america.vercel.app"}
           git={"https://github.com/jstgrowup/SparkAmerica_Clone.git"}
+          features={["Registration", "Login", "Dummy captcha"]}
         />
         <Project
           img={"https://i.ibb.co/26JwSLW/2.png"}
