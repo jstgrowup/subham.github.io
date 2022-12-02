@@ -14,7 +14,8 @@ import {
   HStack,
 } from "@chakra-ui/react";
 import { BsFillCameraVideoFill, BsFillEyeFill, BsGithub } from "react-icons/bs";
-function Project({ img, head, des, tech, yt, ver, git }) {
+import { CheckIcon } from "@chakra-ui/icons";
+function Project({ img, head, des, tech, yt, ver, git, features }) {
   return (
     <Center>
       <Flex
@@ -29,9 +30,9 @@ function Project({ img, head, des, tech, yt, ver, git }) {
           src={img}
         />
 
-        <Flex direction={"column"} p={["2", "2", "4"]}>
+        <Flex direction={"column"} p={["1", "2", "2", "3"]}>
           <Center style={{ width: "100%" }}>
-            <Heading size={"lg"} p={"2"}>
+            <Heading size={"lg"} p={"3"}>
               {head}
             </Heading>
           </Center>
@@ -44,7 +45,6 @@ function Project({ img, head, des, tech, yt, ver, git }) {
           >
             {des}
           </Text>
-
           <Text align={"center"} color={"red"} fontWeight="bold">
             Tech Stacks
             <Flex
@@ -57,6 +57,26 @@ function Project({ img, head, des, tech, yt, ver, git }) {
             >
               {tech.map((el) => (
                 <Text>{el}</Text>
+              ))}
+            </Flex>
+          </Text>
+
+          <Text align={"center"} color={"red"} fontWeight="bold">
+            Features
+            <Flex
+              color={useColorModeValue("black", "white")}
+              fontSize={"md"}
+              direction="column"
+              fontStyle={"sans-serif"}
+              gap={"2"}
+              align={"center"}
+              justify={"center"}
+            >
+              {features.map((el) => (
+                <Text gap={"4"}>
+                  <CheckIcon />
+                  {el}
+                </Text>
               ))}
             </Flex>
           </Text>

@@ -96,6 +96,12 @@ const Projects = () => {
             "https://startling-malasada-ccd5c5.netlify.app/sagar%20and%20pravhat/navbarforhome"
           }
           git={"https://github.com/jstgrowup/Pharmeasy-Clone"}
+          features={[
+            "Search for products",
+            "Signup and Login",
+            "Changing the quantity",
+            "Payment and checkout",
+          ]}
         />
         <Project
           img={"https://i.ibb.co/G0Brt2G/3.png"}
@@ -109,6 +115,12 @@ const Projects = () => {
           }
           ver={"https://delightful-duckanoo-17fff8.netlify.app/"}
           git={"https://github.com/jstgrowup/BeautyBebo-clone.git"}
+          features={[
+            "Add to cart",
+            "Changing quantity",
+            "Signup and Login",
+            "Payment and Checkout",
+          ]}
         />
         <Project
           img={"https://i.ibb.co/qDnLcJn/4.png"}
@@ -120,6 +132,10 @@ const Projects = () => {
           yt={"https://youtu.be/mk53cFRR0Ro"}
           ver={"https://starwars-search-subham.netlify.app/"}
           git={"https://github.com/jstgrowup/Starwars_website.git"}
+          features={[
+            "Searching the Starwars character",
+            "Search reccomendations",
+          ]}
         ></Project>
         <Project
           img={"https://i.ibb.co/27bSjG7/Screenshot-254.png"}
@@ -131,6 +147,11 @@ const Projects = () => {
           yt={"https://youtu.be/0-9m-XROu_w"}
           ver={"https://timecampclone-cw.netlify.app/"}
           git={"https://github.com/jstgrowup/Time-Camp-Clone"}
+          features={[
+            "Signup and Login using Firebase",
+            "Password reset using Email",
+            "Timer dashboard",
+          ]}
         ></Project>
       </SimpleGrid>
     </>
