@@ -17,16 +17,16 @@ import { BsFillCameraVideoFill, BsFillEyeFill, BsGithub } from "react-icons/bs";
 import { CheckIcon } from "@chakra-ui/icons";
 function Project({ img, head, des, tech, yt, ver, git, features }) {
   return (
-    <Center>
+    <Center className="reveal">
       <Flex
-        direction={["column", "column", "row", "row"]}
+        direction={["column", "column", "column", "row"]}
         boxShadow={"2px 5px 10px grey"}
-        borderRadius={"md"}
-        w={["98%", "90%", "90%"]}
+        borderRadius={"3xl"}
+        w={["98%", "90%", "80%"]}
       >
         <Image
-          borderRadius={"md"}
-          w={["100%", "100%", "50%", "50%"]}
+          borderLeftRadius={"3xl"}
+          w={["100%", "100%", "100%", "50%"]}
           src={img}
         />
 
@@ -74,7 +74,7 @@ function Project({ img, head, des, tech, yt, ver, git, features }) {
             >
               {features.map((el) => (
                 <Text gap={"4"}>
-                  <CheckIcon />
+                  <CheckIcon color={"green.600"} />
                   {el}
                 </Text>
               ))}
@@ -89,10 +89,15 @@ function Project({ img, head, des, tech, yt, ver, git, features }) {
           >
             <Button
               fontSize={"sm"}
+              bg={"black"}
+              color={"white"}
               rounded={"full"}
               _
               focus={{
                 bg: "gray.200",
+              }}
+              _hover={{
+                bgGradient: "linear(to-r, #EC9F05, #FF4E00)",
               }}
               onClick={() => {
                 window.open(yt, "_blank");
@@ -103,8 +108,10 @@ function Project({ img, head, des, tech, yt, ver, git, features }) {
             <Button
               fontSize={"sm"}
               rounded={"full"}
-              _focus={{
-                bg: "gray.200",
+              bg={"black"}
+              color={"white"}
+              _hover={{
+                bgGradient: "linear(to-r, #EC9F05, #FF4E00)",
               }}
               onClick={() => {
                 window.open(ver, "_blank");

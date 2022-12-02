@@ -54,7 +54,7 @@ const Projects = () => {
         </Text>
       </Center>
       <Center className="reveal" py={2}>
-        <Heading style={{ paddingLeft: 30 }}>
+        <Heading >
           Here are some of My Projects
         </Heading>
       </Center>
@@ -62,7 +62,7 @@ const Projects = () => {
       <SimpleGrid
         columns={["1", "1", "1", "1"]}
         gap={["5", "6", "10"]}
-        p={["2", "2", "5", "28"]}
+        p={["2", "2", "3", "26"]}
       >
         <Project
           img={"https://i.ibb.co/d6m68DR/1.png"}
@@ -104,7 +104,7 @@ const Projects = () => {
           ]}
         />
         <Project
-          img={"https://i.ibb.co/G0Brt2G/3.png"}
+          img={"https://user-images.githubusercontent.com/40628582/205213183-6cdc9a16-543b-4173-8606-81ba57cf25d6.png"}
           head={"BeautyBebo Clone"}
           des={
             "This is an Indian e-commerce website widely known for selling beauty products for females"
@@ -138,7 +138,7 @@ const Projects = () => {
           ]}
         ></Project>
         <Project
-          img={"https://i.ibb.co/27bSjG7/Screenshot-254.png"}
+          img={"https://user-images.githubusercontent.com/40628582/205212890-9b4433b9-850c-46d8-bf2b-a1ccc5a85e6e.png"}
           head={"TimeCamp Clone"}
           des={
             " Time-camp website which is a time tracking web application used to keep track of the team's work progress"
