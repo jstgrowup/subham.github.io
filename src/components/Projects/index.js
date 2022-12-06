@@ -1,19 +1,17 @@
 import React from "react";
 import {
-  Button,
+ 
   Center,
   Heading,
-  Stack,
+
   Text,
   useColorModeValue,
   Divider,
-  Box,
-  Flex,
+  
   SimpleGrid,
-  Image,
-  HStack,
+ 
 } from "@chakra-ui/react";
-import { BsFillCameraVideoFill, BsFillEyeFill, BsGithub } from "react-icons/bs";
+
 import Project from "./project";
 
 function reveal() {

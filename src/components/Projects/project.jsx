@@ -6,12 +6,11 @@ import {
   Stack,
   Text,
   useColorModeValue,
-  Divider,
-  Box,
+ 
   Flex,
-  SimpleGrid,
+  
   Image,
-  HStack,
+
 } from "@chakra-ui/react";
 import { BsFillCameraVideoFill, BsFillEyeFill, BsGithub } from "react-icons/bs";
 import { CheckIcon } from "@chakra-ui/icons";

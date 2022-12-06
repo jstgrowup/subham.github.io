@@ -9,7 +9,8 @@ import {
   Button,
   Image,
   Icon,
-  useColorModeValue,
+  useColorModeValue
+  
 } from "@chakra-ui/react";
 import Resume from "./Subham_Dey_Resume.pdf";
 import { ChevronRightIcon } from "@chakra-ui/icons";
