@@ -26,7 +26,7 @@ function Project({ img, head, des, tech, yt, ver, git, features }) {
       >
         <Image
         borderRadius={"2xl"}
-          w={["100%", "100%", "100%", "50%"]}
+          w={["100%", "100%", "100%", "53%"]}
           src={img}
         />
 
@@ -51,12 +51,12 @@ function Project({ img, head, des, tech, yt, ver, git, features }) {
               color={useColorModeValue("black", "white")}
               fontSize={"md"}
               fontStyle={"sans-serif"}
-              gap={"3"}
+              gap={"1"}
               align={"center"}
               justify={"center"}
             >
               {tech.map((el) => (
-                <Text>{el}</Text>
+                <Text>{el},</Text>
               ))}
             </Flex>
           </Text>

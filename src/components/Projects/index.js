@@ -13,7 +13,6 @@ import {
   Image,
   HStack,
 } from "@chakra-ui/react";
-
 import { BsFillCameraVideoFill, BsFillEyeFill, BsGithub } from "react-icons/bs";
 import Project from "./project";
 
@@ -69,7 +68,7 @@ const Projects = () => {
             "SparkAmerica is an American health awareness community-building website where people register themselves and join the community."
           }
           tech={[
-            " ReactJS",
+            "React JS",
             "ChakraUI",
             "React Router",
             "Typescript",
@@ -170,18 +169,37 @@ const Projects = () => {
             "MongoDB",
             "Expressjs",
             "Typescript",
-            "Paypal Payment",
+            "Paypal",
           ]}
-          yt={"https://youtu.be/0-9m-XROu_w"}
+          yt={""}
           ver={"https://tendercutsclone.vercel.app/"}
-          git={"https://github.com/jstgrowup/Tendercuts_FullStack"}
+          git={"https://github.com/Madhusainadh/tendercuts_Clone"}
           features={[
             "Signup and Login using MongoDB",
             "Products Add to cart",
             "Changing the quantity in the cart",
             "Checkout and payment using paypal",
           ]}
-        ></Project>
+        />
+        <Project
+          img={
+            "https://user-images.githubusercontent.com/40628582/205966166-8cdceb26-397a-4ede-a5c5-1481d32d6ac4.png"
+          }
+          head={"Todo App"}
+          des={
+            "This is a Todo application where user can add new tasks and delete tasks as well as update the tasks status"
+          }
+          tech={["ChakraUI", "json-server", "React"]}
+          yt={"https://youtu.be/jjymg-85vfo"}
+          ver={"https://todo-app-fawn-kappa.vercel.app/"}
+          git={"https://github.com/jstgrowup/Todo-App"}
+          features={[
+            "Adding todo",
+            "Updating the status",
+            "Deleting the tasks",
+            "Pagination",
+          ]}
+        />
       </SimpleGrid>
     </>
   );
