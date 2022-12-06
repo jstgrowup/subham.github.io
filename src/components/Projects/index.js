@@ -54,9 +54,7 @@ const Projects = () => {
         </Text>
       </Center>
       <Center className="reveal" py={2}>
-        <Heading >
-          Here are some of My Projects
-        </Heading>
+        <Heading>Here are some of My Projects</Heading>
       </Center>
 
       <SimpleGrid
@@ -104,7 +102,9 @@ const Projects = () => {
           ]}
         />
         <Project
-          img={"https://user-images.githubusercontent.com/40628582/205213183-6cdc9a16-543b-4173-8606-81ba57cf25d6.png"}
+          img={
+            "https://user-images.githubusercontent.com/40628582/205213183-6cdc9a16-543b-4173-8606-81ba57cf25d6.png"
+          }
           head={"BeautyBebo Clone"}
           des={
             "This is an Indian e-commerce website widely known for selling beauty products for females"
@@ -138,7 +138,9 @@ const Projects = () => {
           ]}
         ></Project>
         <Project
-          img={"https://user-images.githubusercontent.com/40628582/205212890-9b4433b9-850c-46d8-bf2b-a1ccc5a85e6e.png"}
+          img={
+            "https://user-images.githubusercontent.com/40628582/205212890-9b4433b9-850c-46d8-bf2b-a1ccc5a85e6e.png"
+          }
           head={"TimeCamp Clone"}
           des={
             " Time-camp website which is a time tracking web application used to keep track of the team's work progress"
@@ -151,6 +153,33 @@ const Projects = () => {
             "Signup and Login using Firebase",
             "Password reset using Email",
             "Timer dashboard",
+          ]}
+        ></Project>
+        <Project
+          img={
+            "https://user-images.githubusercontent.com/40628582/203826638-3af1bc41-3ae7-45a0-8324-f42422c24e57.png"
+          }
+          head={"Tendercuts Clone"}
+          des={
+            "Tendercuts website is basically a food ordering website they are delivered by the local shops freshelly."
+          }
+          tech={[
+            "ChakraUI",
+            "Redux",
+            "React",
+            "MongoDB",
+            "Expressjs",
+            "Typescript",
+            "Paypal Payment",
+          ]}
+          yt={"https://youtu.be/0-9m-XROu_w"}
+          ver={"https://tendercutsclone.vercel.app/"}
+          git={"https://github.com/jstgrowup/Tendercuts_FullStack"}
+          features={[
+            "Signup and Login using MongoDB",
+            "Products Add to cart",
+            "Changing the quantity in the cart",
+            "Checkout and payment using paypal",
           ]}
         ></Project>
       </SimpleGrid>

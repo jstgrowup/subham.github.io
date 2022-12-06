@@ -25,7 +25,7 @@ function Project({ img, head, des, tech, yt, ver, git, features }) {
         w={["98%", "90%", "80%"]}
       >
         <Image
-          borderLeftRadius={"3xl"}
+        borderRadius={"2xl"}
           w={["100%", "100%", "100%", "50%"]}
           src={img}
         />
