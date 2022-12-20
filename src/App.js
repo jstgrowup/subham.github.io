@@ -12,13 +12,13 @@ import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import About from "./components/About";
 import Projects from "./components/Projects";
-import { Gitgraph } from "./gitgraph";
-import GitStats from "./gitStats";
+
+import { Gitgraph } from "./components/gitgraph";
+import GitStats from "./components/gitStats";
 
 const App = () => {
   return (
     <ChakraProvider>
-
       <Navbar />
 
       <Hero />
@@ -28,7 +28,9 @@ const App = () => {
       </Center>
       <Center>
         <Flex direction={"column"} alignItems="center" gap={"10"}>
-          <Heading size={"md"} color={useColorModeValue("black", "white")}>My Github Stats</Heading>
+          <Heading size={"md"} color={useColorModeValue("black", "white")}>
+            My Github Stats
+          </Heading>
           <GitStats />
         </Flex>
       </Center>

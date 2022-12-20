@@ -9,7 +9,6 @@ import {
 } from "@chakra-ui/react";
 
 import Project from "./project";
-import { IoLogoReact } from "react-icons/io5";
 
 function reveal() {
   var reveals = document.querySelectorAll(".reveal");
