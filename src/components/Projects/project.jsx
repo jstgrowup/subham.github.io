@@ -6,11 +6,8 @@ import {
   Stack,
   Text,
   useColorModeValue,
- 
   Flex,
-  
   Image,
-
 } from "@chakra-ui/react";
 import { BsFillCameraVideoFill, BsFillEyeFill, BsGithub } from "react-icons/bs";
 import { CheckIcon } from "@chakra-ui/icons";
@@ -24,7 +21,7 @@ function Project({ img, head, des, tech, yt, ver, git, features }) {
         w={["98%", "90%", "80%"]}
       >
         <Image
-        borderRadius={"2xl"}
+          borderRadius={"2xl"}
           w={["100%", "100%", "100%", "53%"]}
           src={img}
         />
