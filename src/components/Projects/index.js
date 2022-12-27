@@ -111,6 +111,24 @@ const Projects = () => {
           ]}
         />
         <Project
+          img={
+            "https://user-images.githubusercontent.com/40628582/206831478-d1099225-1c74-4b16-976c-db8fa4dc2fb6.png"
+          }
+          head={"Tweeter"}
+          des={
+            "This is a mini project where i made a small social media website where user can post gifs along with a caption , like/dislike other people posts"
+          }
+          tech={["ChakraUI", "Redux", "React", "MongoDB", "Expressjs"]}
+          yt={"https://youtu.be/mk53cFRR0Ro"}
+          ver={"https://tweeter-nu.vercel.app/"}
+          git={"https://github.com/jstgrowup/Tweeter"}
+          features={[
+            "Signup/login",
+            "User Profile will have all his/her posts posted",
+            "Timeline where he/she will be able to see all the posts",
+          ]}
+        />
+        <Project
           img={"https://i.ibb.co/26JwSLW/2.png"}
           head={"Pharmeasy Clone"}
           des={
@@ -184,7 +202,7 @@ const Projects = () => {
             "Searching the Starwars character",
             "Search reccomendations",
           ]}
-        ></Project>
+        />
         <Project
           img={
             "https://user-images.githubusercontent.com/40628582/205966166-8cdceb26-397a-4ede-a5c5-1481d32d6ac4.png"
