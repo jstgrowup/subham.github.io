@@ -57,61 +57,6 @@ const Projects = () => {
       >
         <Project
           img={
-            "https://user-images.githubusercontent.com/40628582/203826638-3af1bc41-3ae7-45a0-8324-f42422c24e57.png"
-          }
-          head={"Tendercuts Clone"}
-          des={
-            "Tendercuts website is basically a food ordering website they are delivered by the local shops freshelly."
-          }
-          tech={[
-            "ChakraUI",
-            "Redux",
-            "React",
-            "MongoDB",
-            "Expressjs",
-            "Typescript",
-            "Paypal",
-          ]}
-          yt={""}
-          ver={"https://tendercutsclone.vercel.app/"}
-          git={"https://github.com/Madhusainadh/tendercuts_Clone"}
-          features={[
-            "Signup and Login using MongoDB",
-            "Products Add to cart",
-            "Changing the quantity in the cart",
-            "Checkout and payment using paypal",
-          ]}
-        />
-        <Project
-          img={
-            "https://user-images.githubusercontent.com/40628582/208730326-d10b4b6d-2301-43b9-9298-fb3de9c191d3.png"
-          }
-          head={"Medimed.com"}
-          des={
-            "Medimed.com is inspired by Netmeds.com, Netmeds.com is a trusted Indian online pharmacy where users can buy medicines."
-          }
-          tech={[
-            "ChakraUI",
-            "Redux",
-            "React",
-            "MongoDB",
-            "Expressjs",
-            "Firebase",
-            "Paypal",
-          ]}
-          yt={"https://youtu.be/0-9m-XROu_w"}
-          ver={"https://medimed-com.vercel.app/"}
-          git={"https://github.com/jstgrowup/Medimed.com"}
-          features={[
-            "Search Products",
-            "Signup and Login using OTP",
-            "Products Add to cart",
-            "Changing the quantity and delete items from cart",
-            "Checkout and payment using paypal",
-          ]}
-        />
-        <Project
-          img={
             "https://user-images.githubusercontent.com/40628582/210967114-d22db46e-05d6-4c42-b446-a867bdaf5f45.png"
           }
           head={"Tweeter-GIPHY.com"}
@@ -138,6 +83,61 @@ const Projects = () => {
             "Like other people posts",
             "Follow other users",
             "Delete the Account and Update the Profile",
+          ]}
+        />
+            <Project
+              img={
+                "https://user-images.githubusercontent.com/40628582/208730326-d10b4b6d-2301-43b9-9298-fb3de9c191d3.png"
+              }
+              head={"Medimed.com"}
+              des={
+                "Medimed.com is inspired by Netmeds.com, Netmeds.com is a trusted Indian online pharmacy where users can buy medicines."
+              }
+              tech={[
+                "ChakraUI",
+                "Redux",
+                "React",
+                "MongoDB",
+                "Expressjs",
+                "Firebase",
+                "Paypal",
+              ]}
+              yt={"https://youtu.be/0-9m-XROu_w"}
+              ver={"https://medimed-com.vercel.app/"}
+              git={"https://github.com/jstgrowup/Medimed.com"}
+              features={[
+                "Search Products",
+                "Signup and Login using OTP",
+                "Products Add to cart",
+                "Changing the quantity and delete items from cart",
+                "Checkout and payment using paypal",
+              ]}
+            />
+        <Project
+          img={
+            "https://user-images.githubusercontent.com/40628582/203826638-3af1bc41-3ae7-45a0-8324-f42422c24e57.png"
+          }
+          head={"Tendercuts Clone"}
+          des={
+            "Tendercuts website is basically a food ordering website they are delivered by the local shops freshelly."
+          }
+          tech={[
+            "ChakraUI",
+            "Redux",
+            "React",
+            "MongoDB",
+            "Expressjs",
+            "Typescript",
+            "Paypal",
+          ]}
+          yt={""}
+          ver={"https://tendercutsclone.vercel.app/"}
+          git={"https://github.com/Madhusainadh/tendercuts_Clone"}
+          features={[
+            "Signup and Login using MongoDB",
+            "Products Add to cart",
+            "Changing the quantity in the cart",
+            "Checkout and payment using paypal",
           ]}
         />
         <Project
