@@ -64,7 +64,7 @@ function Project({ img, head, des, tech, yt, ver, git, features }) {
               fontSize={"md"}
               direction="column"
               fontStyle={"sans-serif"}
-              gap={"2"}
+              gap={"1"}
               align={"center"}
               justify={"center"}
             >

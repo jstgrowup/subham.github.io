@@ -112,20 +112,32 @@ const Projects = () => {
         />
         <Project
           img={
-            "https://user-images.githubusercontent.com/40628582/206831478-d1099225-1c74-4b16-976c-db8fa4dc2fb6.png"
+            "https://user-images.githubusercontent.com/40628582/210967114-d22db46e-05d6-4c42-b446-a867bdaf5f45.png"
           }
-          head={"Tweeter"}
+          head={"Tweeter-GIPHY.com"}
           des={
-            "This is a mini project where i made a small social media website where user can post gifs along with a caption , like/dislike other people posts"
+            "This is Social media website where users can post GIF with a caption 😋"
           }
-          tech={["ChakraUI", "Redux", "React", "MongoDB", "Expressjs"]}
-          yt={"https://youtu.be/mk53cFRR0Ro"}
-          ver={"https://tweeter-nu.vercel.app/"}
-          git={"https://github.com/jstgrowup/Tweeter"}
+          tech={[
+            "NextJS",
+            "ChakraUI",
+            "Nodemailer",
+
+            "Redux",
+            "React",
+            "MongoDB",
+            "Expressjs",
+          ]}
+          yt={"https://youtu.be/arOeeMtoNwo"}
+          ver={"https://tweeter-giphy.vercel.app/"}
+          git={"https://github.com/jstgrowup/Tweeter-GIPHY.com"}
           features={[
             "Signup/login",
             "User Profile will have all his/her posts posted",
             "Timeline where he/she will be able to see all the posts",
+            "Like other people posts",
+            "Follow other users",
+            "Delete the Account and Update the Profile",
           ]}
         />
         <Project
