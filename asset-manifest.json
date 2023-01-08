@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/subham.github.io/static/css/main.6f2555cf.css",
-    "main.js": "/subham.github.io/static/js/main.a9ea574d.js",
+    "main.js": "/subham.github.io/static/js/main.3d599b8e.js",
     "static/media/Subham.JPG": "/subham.github.io/static/media/Subham.76c01d14015934f77b7b.JPG",
     "static/media/Subham_Dey_Resume.pdf": "/subham.github.io/static/media/Subham_Dey_Resume.c20010e1ae7ee7937159.pdf",
     "index.html": "/subham.github.io/index.html",
     "main.6f2555cf.css.map": "/subham.github.io/static/css/main.6f2555cf.css.map",
-    "main.a9ea574d.js.map": "/subham.github.io/static/js/main.a9ea574d.js.map"
+    "main.3d599b8e.js.map": "/subham.github.io/static/js/main.3d599b8e.js.map"
   },
   "entrypoints": [
     "static/css/main.6f2555cf.css",
-    "static/js/main.a9ea574d.js"
+    "static/js/main.3d599b8e.js"
   ]
 }
