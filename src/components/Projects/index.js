@@ -102,6 +102,7 @@ const Projects = () => {
             "Firebase",
             "Paypal",
           ]}
+          
           yt={"https://drive.google.com/file/d/1yo1G79PDlXZYpT2G3ZekdWiMEy9gqM7U/view?usp=share_link"}
           ver={"https://medimed-com.vercel.app/"}
           git={"https://github.com/jstgrowup/Medimed.com"}

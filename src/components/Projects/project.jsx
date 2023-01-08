@@ -43,39 +43,39 @@ function Project({ img, head, des, tech, yt, ver, git, features }) {
           </Text>
           <Text align={"center"} color={"red"} fontWeight="bold">
             Tech Stacks
-            <Flex
-              color={useColorModeValue("black", "white")}
-              fontSize={"md"}
-              fontStyle={"sans-serif"}
-              gap={"1"}
-              align={"center"}
-              justify={"center"}
-            >
-              {tech.map((el) => (
-                <Text>{el},</Text>
-              ))}
-            </Flex>
           </Text>
+          <Flex
+            color={useColorModeValue("black", "white")}
+            fontSize={["xs", "md", "md", "md"]}
+            fontStyle={"sans-serif"}
+            fontWeight="bold"
+            gap={"1"}
+            justify={"center"}
+          >
+            {tech.map((el) => (
+              <Text key={el}>{el},</Text>
+            ))}
+          </Flex>
 
           <Text align={"center"} color={"red"} fontWeight="bold">
             Features
-            <Flex
-              color={useColorModeValue("black", "white")}
-              fontSize={"md"}
-              direction="column"
-              fontStyle={"sans-serif"}
-              gap={"1"}
-              align={"center"}
-              justify={"center"}
-            >
-              {features.map((el) => (
-                <Text gap={"4"}>
-                  <CheckIcon color={"green.600"} />
-                  {el}
-                </Text>
-              ))}
-            </Flex>
           </Text>
+          <Flex
+            color={useColorModeValue("black", "white")}
+            fontSize={"md"}
+            direction="column"
+            fontStyle={"sans-serif"}
+            gap={"1"}
+            align={"center"}
+            justify={"center"}
+          >
+            {features.map((el) => (
+              <Text gap={"4"} key={el}>
+                <CheckIcon color={"green.600"} />
+                {el}
+              </Text>
+            ))}
+          </Flex>
           <Stack
             mt={"1rem"}
             direction={"row"}
@@ -88,8 +88,7 @@ function Project({ img, head, des, tech, yt, ver, git, features }) {
               bg={"black"}
               color={"white"}
               rounded={"full"}
-              _
-              focus={{
+              _focus={{
                 bg: "gray.200",
               }}
               _hover={{
@@ -115,7 +114,6 @@ function Project({ img, head, des, tech, yt, ver, git, features }) {
             >
               {<BsFillEyeFill size="28px" />}
             </Button>
-            //{" "}
             <Button
               fontSize={"sm"}
               rounded={"full"}

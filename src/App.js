@@ -20,7 +20,6 @@ const App = () => {
   return (
     <ChakraProvider>
       <Navbar />
-
       <Hero />
       <About />
       <Center>
