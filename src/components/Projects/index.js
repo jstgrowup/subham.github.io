@@ -85,34 +85,35 @@ const Projects = () => {
             "Delete the Account and Update the Profile",
           ]}
         />
-            <Project
-              img={
-                "https://user-images.githubusercontent.com/40628582/208730326-d10b4b6d-2301-43b9-9298-fb3de9c191d3.png"
-              }
-              head={"Medimed.com"}
-              des={
-                "Medimed.com is inspired by Netmeds.com, Netmeds.com is a trusted Indian online pharmacy where users can buy medicines."
-              }
-              tech={[
-                "ChakraUI",
-                "Redux",
-                "React",
-                "MongoDB",
-                "Expressjs",
-                "Firebase",
-                "Paypal",
-              ]}
-              yt={"https://youtu.be/0-9m-XROu_w"}
-              ver={"https://medimed-com.vercel.app/"}
-              git={"https://github.com/jstgrowup/Medimed.com"}
-              features={[
-                "Search Products",
-                "Signup and Login using OTP",
-                "Products Add to cart",
-                "Changing the quantity and delete items from cart",
-                "Checkout and payment using paypal",
-              ]}
-            />
+        <Project
+          img={
+            "https://user-images.githubusercontent.com/40628582/208730326-d10b4b6d-2301-43b9-9298-fb3de9c191d3.png"
+          }
+          head={"Medimed.com"}
+          des={
+            "Medimed.com is inspired by Netmeds.com, Netmeds.com is a trusted Indian online pharmacy where users can buy medicines."
+          }
+          tech={[
+            "ChakraUI",
+            "Redux",
+            "React",
+            "MongoDB",
+            "Expressjs",
+            "Firebase",
+            "Paypal",
+          ]}
+          yt={"https://drive.google.com/file/d/1yo1G79PDlXZYpT2G3ZekdWiMEy9gqM7U/view?usp=share_link"}
+          ver={"https://medimed-com.vercel.app/"}
+          git={"https://github.com/jstgrowup/Medimed.com"}
+          features={[
+            "Search Products",
+            "Signup and Login using OTP",
+            "Products Add to cart",
+            "Changing the quantity and delete items from cart",
+            "Checkout and payment using paypal",
+          ]}
+        />
+
         <Project
           img={
             "https://user-images.githubusercontent.com/40628582/203826638-3af1bc41-3ae7-45a0-8324-f42422c24e57.png"
@@ -138,6 +139,31 @@ const Projects = () => {
             "Products Add to cart",
             "Changing the quantity in the cart",
             "Checkout and payment using paypal",
+          ]}
+        />
+        <Project
+          img={"https://user-images.githubusercontent.com/40628582/211184056-f8ae6701-dd73-42a2-9bf5-ff0130d2155f.png"}
+          head={"TimeCamp Clone"}
+          des={
+            "Time-camp website which is a time tracking web application used to keep track of the team's work progress"
+          }
+          tech={[
+            "ChakraUI",
+            "RouterDOM",
+            "Google-Firebase_Auth",
+            "React",
+            "Redux",
+            "Bootstarp",
+            "CSS",
+          ]}
+          yt={"https://youtu.be/0-9m-XROu_w"}
+          ver={"https://timecamp-jet.vercel.app/"}
+          git={"https://github.com/ssksds/Time-Camp-Clone"}
+          features={[
+            "Signup and Login using Google firebase",
+            "Dashboard where users can create a project",
+            "Password reset using Email",
+            "Informative and descriptive pages",
           ]}
         />
         <Project
