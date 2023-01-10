@@ -102,8 +102,9 @@ const Projects = () => {
             "Firebase",
             "Paypal",
           ]}
-          
-          yt={"https://drive.google.com/file/d/1yo1G79PDlXZYpT2G3ZekdWiMEy9gqM7U/view?usp=share_link"}
+          yt={
+            "https://drive.google.com/file/d/1yo1G79PDlXZYpT2G3ZekdWiMEy9gqM7U/view?usp=share_link"
+          }
           ver={"https://medimed-com.vercel.app/"}
           git={"https://github.com/jstgrowup/Medimed.com"}
           features={[
@@ -143,7 +144,9 @@ const Projects = () => {
           ]}
         />
         <Project
-          img={"https://user-images.githubusercontent.com/40628582/211184056-f8ae6701-dd73-42a2-9bf5-ff0130d2155f.png"}
+          img={
+            "https://user-images.githubusercontent.com/40628582/211184056-f8ae6701-dd73-42a2-9bf5-ff0130d2155f.png"
+          }
           head={"TimeCamp Clone"}
           des={
             "Time-camp website which is a time tracking web application used to keep track of the team's work progress"
@@ -151,7 +154,7 @@ const Projects = () => {
           tech={[
             "ChakraUI",
             "RouterDOM",
-            "Google-Firebase_Auth",
+            "Firebase Auth",
             "React",
             "Redux",
             "Bootstarp",

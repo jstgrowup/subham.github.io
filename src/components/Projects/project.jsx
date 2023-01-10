@@ -112,6 +112,8 @@ function Project({ img, head, des, tech, yt, ver, git, features }) {
                 window.open(ver, "_blank");
               }}
             >
+
+            
               {<BsFillEyeFill size="28px" />}
             </Button>
             <Button
