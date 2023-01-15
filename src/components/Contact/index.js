@@ -71,7 +71,7 @@ const Contact = () => {
                       Fill up the form below to contact
                     </Text>
                     <Box py={{ base: 5, sm: 5, md: 8, lg: 10 }}>
-                      <VStack pl={0} spacing={3} alignItems="flex-start">
+                      <VStack pl={0} spacing={3} alignItems="center">
                         <Button
                           size="md"
                           height="48px"
@@ -81,7 +81,19 @@ const Contact = () => {
                           _hover={{ border: "2px solid #1C6FEB" }}
                           leftIcon={<MdPhone color="#1970F1" size="20px" />}
                         >
-                          +91-9435355529
+                          <a href="tel:9435355529">+91-9435355529</a>
+                        </Button>
+                        <Text>OR</Text>
+                        <Button
+                          size="md"
+                          height="48px"
+                          width="200px"
+                          variant="ghost"
+                          color="#DCE2FF"
+                          _hover={{ border: "2px solid #1C6FEB" }}
+                          leftIcon={<MdPhone color="#1970F1" size="20px" />}
+                        >
+                          <a href="tel:7086580239">+91-7086580239</a>
                         </Button>
                         <Button
                           size="md"
