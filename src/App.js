@@ -15,6 +15,7 @@ import Projects from "./components/Projects";
 
 import { Gitgraph } from "./components/gitgraph";
 import GitStats from "./components/gitStats";
+import Workexperience from "./workerperience/work-experience";
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <About />
+      <Workexperience />
       <Center>
         <Gitgraph />
       </Center>
