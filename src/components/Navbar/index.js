@@ -25,8 +25,6 @@ const Navbar = () => {
   return (
     <Box w={"100%"} my={["-20"]} position={"fixed"} zIndex={"25"}>
       <Flex
-
-
         bg={useColorModeValue("gray.100", "gray.900")}
         px={4}
         h={16}

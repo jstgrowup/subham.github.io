@@ -22,8 +22,8 @@ const App = () => {
     <ChakraProvider>
       <Navbar />
       <Hero />
-      <About />
       <Workexperience />
+      <About />
       <Center>
         <Gitgraph />
       </Center>
