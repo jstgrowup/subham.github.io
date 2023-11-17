@@ -7,7 +7,7 @@ import { Heading } from "@chakra-ui/react";
 function Workexperience() {
   return (
     <div>
-      {/* <Heading>Experience</Heading> */}
+      <Heading>Experience</Heading>
       <div>
         {/* {institutions.institutions.map((item) => (
         <CompanyCard
