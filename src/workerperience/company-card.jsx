@@ -17,8 +17,8 @@ function CompanyCard({
   interval,
 }) {
   return (
-    <SimpleGrid w="100%" columns={[1, 1, 2, 2]}>
-      <Box w="25%">
+    <Flex direction={["column", "column", "row", "row"]}>
+      <Box w={"25%"}>
         <Image h={"full"} w={"full"} src={img} rounded="md" />
       </Box>
       <Flex
@@ -27,6 +27,7 @@ function CompanyCard({
         fontStyle={"sans-serif"}
         fontWeight={"500"}
         direction={"column"}
+        w={["100%", "100%", "75%", "75%"]}
       >
         <Heading color="black" fontSize="xl">
           {name}
@@ -47,7 +48,7 @@ function CompanyCard({
           </Flex>
         </Center>
       </Flex>
-    </SimpleGrid>
+    </Flex>
   );
 }
 
