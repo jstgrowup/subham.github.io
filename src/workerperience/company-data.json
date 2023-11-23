@@ -1,78 +1,32 @@
 {
   "institutions": [
     {
-      "name": "Masai School",
-      "address": "Koramangala, Bengaluru, Karnataka",
-      "img": "https://raw.githubusercontent.com/iammostak/iammostak.github.io/main/src/assets/masai.jpg",
+      "name": "Honebi",
+      "interval": "Janunary 2023 - Present",
+      "address": "Indiranagar,Bangalore",
+      "img": "https://github.com/jstgrowup/jstgrowup/assets/40628582/098d14a5-baf5-4219-94b3-45d1f98b1208",
+      "responsibilities": [
+        "Built REST APIs using microservice architecture to enable seamless communication between the front-end and back-end components.",
+        "Developed an import-export module by which we can  create or update data using an Excel sheet.",
+        "Handled the backend of an internal project called Pagebuilder in which we can control the various page components from the super admin dashboard.",
+        "Build a feature where a CronJob will remove all the corrupted product variant images from the catalogue"
+      ],
       "learn": [
         {
-          "title": "HTML",
-          "logo": "https://raw.githubusercontent.com/iammostak/iammostak.github.io/main/src/assets/logos/html.png"
-        },
-        {
-          "title": "CSS",
-          "logo": "https://raw.githubusercontent.com/iammostak/iammostak.github.io/main/src/assets/logos/css.png"
-        },
-        {
-          "title": "JavaScript",
-          "logo": "https://raw.githubusercontent.com/iammostak/iammostak.github.io/main/src/assets/logos/js.png"
-        },
-        {
-          "title": "React",
-          "logo": "https://raw.githubusercontent.com/iammostak/iammostak.github.io/main/src/assets/logos/react.png"
-        },
-        {
           "title": "NodeJS",
-          "logo": "https://raw.githubusercontent.com/iammostak/iammostak.github.io/main/src/assets/logos/node.png"
+          "logo": "https://github.com/jstgrowup/jstgrowup/assets/40628582/f36135ac-b7c6-4afe-9733-4104455e3c91"
+        },
+        {
+          "title": "ExpressJs",
+          "logo": "https://github.com/jstgrowup/jstgrowup/assets/40628582/092492d7-ba4c-4147-9eb1-fd6f11befbad"
         },
         {
           "title": "MongoDB",
-          "logo": "https://raw.githubusercontent.com/iammostak/iammostak.github.io/main/src/assets/logos/mongodb.png"
+          "logo": "https://github.com/jstgrowup/jstgrowup/assets/40628582/792e6b37-1a7d-4c35-9bbc-997946f79d2e"
         },
         {
-          "title": "Redux",
-          "logo": "https://raw.githubusercontent.com/iammostak/iammostak.github.io/main/src/assets/logos/redux.png"
-        },
-        {
-          "title": "UI",
-          "logo": "https://raw.githubusercontent.com/iammostak/iammostak.github.io/main/src/assets/logos/chakra.png"
-        },
-        {
-          "title": "Bootstrap",
-          "logo": "https://raw.githubusercontent.com/iammostak/iammostak.github.io/main/src/assets/logos/bootstrap.png"
-        }
-      ]
-    },
-    {
-      "name": "Rajiv Gandhi Proudyogiki Vishwavidyalaya",
-      "address": "Airport Bypass Road, Bhopal, Madhya Pradesh",
-      "img": "https://raw.githubusercontent.com/iammostak/iammostak.github.io/main/src/assets/rgpv.jpeg",
-      "learn": [
-        {
-          "title": "B. Pharmacy",
-          "logo": "https://raw.githubusercontent.com/iammostak/iammostak.github.io/main/src/assets/logos/bpharm.png"
-        }
-      ]
-    },
-    {
-      "name": "Hallyan High School",
-      "address": "Hallyan, Bagnan, Howrah",
-      "img": "https://raw.githubusercontent.com/iammostak/iammostak.github.io/main/src/assets/hallyan.jpg",
-      "learn": [
-        {
-          "title": "Science",
-          "logo": "https://raw.githubusercontent.com/iammostak/iammostak.github.io/main/src/assets/logos/science.png"
-        }
-      ]
-    },
-    {
-      "name": "Mozampur H.S.S.B. High School",
-      "address": "Mozampur, Malda, West Bengal",
-      "img": "https://raw.githubusercontent.com/iammostak/iammostak.github.io/main/src/assets/mhs.jpg",
-      "learn": [
-        {
-          "title": "Secondary education",
-          "logo": "https://raw.githubusercontent.com/iammostak/iammostak.github.io/main/src/assets/logos/secondary.png"
+          "title": "Loopback",
+          "logo": "https://github.com/jstgrowup/jstgrowup/assets/40628582/4b838360-e0b4-410f-81d2-e73cd00ea543"
         }
       ]
     }

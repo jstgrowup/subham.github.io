@@ -1,28 +1,53 @@
-// import light from "../../styles/light.module.css";
-// import dark from "../../styles/dark.module.css";
-
-function CompanyCard({ theme, name, img, address, learn }) {
-  let styles;
-  //   theme ? (styles = light) : (styles = dark);
-
+import {
+  Box,
+  Center,
+  Flex,
+  Heading,
+  Image,
+  SimpleGrid,
+  Text,
+} from "@chakra-ui/react";
+import { ListItem, UnorderedList } from "@chakra-ui/react";
+function CompanyCard({
+  name,
+  address,
+  img,
+  responsibilities,
+  learn,
+  interval,
+}) {
   return (
-    <div className={styles.institution} data-aos="slide-up">
-      <div>
-        <h3>{name}</h3>
-        <div>{address}</div>
-        <div className={styles.skills}>
-          {learn.map((item) => (
-            <div>
-              <img src={item.logo} alt={item.title} />
-              <span>{item.title}</span>
-            </div>
-          ))}
-        </div>
-      </div>
-      <div className={styles.instImgDiv}>
-        <img src={img} alt="institution" />
-      </div>
-    </div>
+    <SimpleGrid w="100%" columns={[1, 1, 2, 2]}>
+      <Box w="25%">
+        <Image h={"full"} w={"full"} src={img} rounded="md" />
+      </Box>
+      <Flex
+        color="blackAlpha.900"
+        fontSize={"md"}
+        fontStyle={"sans-serif"}
+        fontWeight={"500"}
+        direction={"column"}
+      >
+        <Heading color="black" fontSize="xl">
+          {name}
+        </Heading>
+        <Text>{interval}</Text>
+        <Text>{address}</Text>
+        <Text fontWeight="bold">Responsibilities</Text>
+        <UnorderedList>
+          {responsibilities.map((item) => {
+            return <ListItem>{item}</ListItem>;
+          })}
+        </UnorderedList>
+        <Center py={"4"}>
+          <Flex gap={["4", "4", "10", "10"]} flexWrap="wrap">
+            {learn.map(({ title, logo }) => {
+              return <Image boxSize="16" src={logo} key={title} />;
+            })}
+          </Flex>
+        </Center>
+      </Flex>
+    </SimpleGrid>
   );
 }
 

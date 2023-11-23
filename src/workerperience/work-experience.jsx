@@ -3,22 +3,42 @@ import React from "react";
 import institutions from "./company-data.json";
 import CompanyCard from "./company-card";
 
-import { Heading } from "@chakra-ui/react";
+import {
+  Center,
+  Container,
+  Heading,
+  useColorModeValue,
+} from "@chakra-ui/react";
 function Workexperience() {
   return (
-    <div>
-      <Heading>Experience</Heading>
-      <div>
-        {/* {institutions.institutions.map((item) => (
-        <CompanyCard
-          name={item.name}
-          img={item.img}
-          address={item.address}
-          learn={item.learn}
-        />
-      ))} */}
-      </div>
-    </div>
+    <>
+      <Center>
+        <Heading color={useColorModeValue("black", "white")} size="lg">
+          Experience
+        </Heading>
+      </Center>
+      <Container
+        mt="5"
+        py={5}
+        maxW={"7xl"}
+        isLazy
+        boxShadow="dark-lg"
+        borderRadius="md"
+      >
+        {institutions.institutions.map(
+          ({ name, address, img, responsibilities, learn, interval }) => (
+            <CompanyCard
+              name={name}
+              img={img}
+              address={address}
+              responsibilities={responsibilities}
+              learn={learn}
+              interval={interval}
+            />
+          )
+        )}
+      </Container>
+    </>
   );
 }
 
