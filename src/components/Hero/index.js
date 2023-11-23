@@ -9,20 +9,17 @@ import {
   Button,
   Image,
   Icon,
-  useColorModeValue
-  
+  useColorModeValue,
 } from "@chakra-ui/react";
 import Resume from "./Subham_Dey_Resume.pdf";
 import { ChevronRightIcon } from "@chakra-ui/icons";
 import Typewriter from "typewriter-effect";
 import heroImage from "./image/Subham.JPG";
 
-
 const Hero = () => {
-  
   return (
     <>
-      <Container id="home" maxW={"7xl"} isLazy marginTop={["20"]} >
+      <Container id="home" maxW={"7xl"} isLazy marginTop={["20"]}>
         <Stack
           align={"center"}
           spacing={{ base: 8, md: 10 }}
@@ -40,7 +37,6 @@ const Hero = () => {
                 as={"span"}
                 position={"relative"}
                 _after={{
-                  
                   width: "full",
                   height: "20%",
                   position: "absolute",
@@ -92,12 +88,12 @@ const Hero = () => {
                 <Button
                   rounded={"full"}
                   rightIcon={<ChevronRightIcon />}
-                  // onClick={() => {
-                  //   window.open(
-                  //     "https://drive.google.com/file/d/1oKY81T9kWc8hcoKAOuYE-VL-4kJneEcv/view",
-                  //     "_blank"
-                  //   );
-                  // }}
+                  onClick={() => {
+                    window.open(
+                      "https://drive.google.com/file/d/1oKY81T9kWc8hcoKAOuYE-VL-4kJneEcv/view",
+                      "_blank"
+                    );
+                  }}
                   size={"lg"}
                   colorScheme={"red"}
                   fontWeight={"normal"}

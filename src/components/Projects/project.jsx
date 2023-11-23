@@ -19,6 +19,10 @@ function Project({ img, head, des, tech, yt, ver, git, features }) {
         boxShadow={"2px 5px 10px grey"}
         borderRadius={"3xl"}
         w={["98%", "90%", "80%"]}
+        transition="transform 0.3s ease-in-out"
+        _hover={{
+          transform: "scale(1.05)",
+        }}
       >
         <Image
           borderRadius={"2xl"}
@@ -112,8 +116,6 @@ function Project({ img, head, des, tech, yt, ver, git, features }) {
                 window.open(ver, "_blank");
               }}
             >
-
-            
               {<BsFillEyeFill size="28px" />}
             </Button>
             <Button
