@@ -26,7 +26,7 @@ function Workexperience() {
         borderRadius="md"
       >
         {institutions.institutions.map(
-          ({ name, address, img, responsibilities, learn, interval }) => (
+          ({ name,role, address, img, responsibilities, learn, interval }) => (
             <CompanyCard
               name={name}
               img={img}
@@ -34,6 +34,7 @@ function Workexperience() {
               responsibilities={responsibilities}
               learn={learn}
               interval={interval}
+              role={role}
             />
           )
         )}

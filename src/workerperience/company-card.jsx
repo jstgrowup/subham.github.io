@@ -15,6 +15,7 @@ function CompanyCard({
   responsibilities,
   learn,
   interval,
+  role,
 }) {
   return (
     <Flex direction={["column", "column", "row", "row"]}>
@@ -29,9 +30,10 @@ function CompanyCard({
         direction={"column"}
         w={["100%", "100%", "75%", "75%"]}
       >
-        <Heading color="black" fontSize="xl">
+        <Heading color="black" fontSize="2xl">
           {name}
         </Heading>
+        <Text>{role}</Text>
         <Text>{interval}</Text>
         <Text>{address}</Text>
         <Text fontWeight="bold">Responsibilities</Text>
