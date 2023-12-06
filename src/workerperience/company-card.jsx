@@ -4,8 +4,8 @@ import {
   Flex,
   Heading,
   Image,
-  SimpleGrid,
   Text,
+  useColorModeValue,
 } from "@chakra-ui/react";
 import { ListItem, UnorderedList } from "@chakra-ui/react";
 function CompanyCard({
@@ -18,9 +18,17 @@ function CompanyCard({
   role,
 }) {
   return (
-    <Flex direction={["column", "column", "row", "row"]}>
-      <Box w={"25%"}>
-        <Image h={"full"} w={"full"} src={img} rounded="md" />
+    <Flex
+      direction={["column", "column", "row", "row"]}
+      color={useColorModeValue("black", "white")}
+    >
+      <Box
+        w={"27%"}
+        display={"flex"}
+        justifyContent={"center"}
+        alignItems={"center"}
+      >
+        <Image h="min" w={"full"} src={img} rounded="md" />
       </Box>
       <Flex
         color="blackAlpha.900"
@@ -28,9 +36,10 @@ function CompanyCard({
         fontStyle={"sans-serif"}
         fontWeight={"500"}
         direction={"column"}
+        gap={"1"}
         w={["100%", "100%", "75%", "75%"]}
       >
-        <Heading color="black" fontSize="2xl">
+        <Heading color="black" fontSize="3xl">
           {name}
         </Heading>
         <Text>{role}</Text>
@@ -42,7 +51,7 @@ function CompanyCard({
             return <ListItem>{item}</ListItem>;
           })}
         </UnorderedList>
-        <Center py={"4"}>
+        <Center py={"2"}>
           <Flex gap={["4", "4", "10", "10"]} flexWrap="wrap">
             {learn.map(({ title, logo }) => {
               return <Image boxSize="16" src={logo} key={title} />;

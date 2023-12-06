@@ -19,14 +19,13 @@ function Workexperience() {
       </Center>
       <Container
         mt="5"
-        py={5}
-        maxW={"7xl"}
+        maxW={"5xl"}
         isLazy
         boxShadow="dark-lg"
         borderRadius="md"
       >
         {institutions.institutions.map(
-          ({ name,role, address, img, responsibilities, learn, interval }) => (
+          ({ name, role, address, img, responsibilities, learn, interval }) => (
             <CompanyCard
               name={name}
               img={img}
